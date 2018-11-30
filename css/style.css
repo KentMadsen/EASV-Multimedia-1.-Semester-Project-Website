@@ -1,3 +1,21 @@
+body {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 26px;
+  margin: 0px;
+  padding: 0px;
+}
 
+header {
+  grid-area: auto;
+}
+
+footer {
+  grid-area: auto;
+}
+
+main {
+  grid-area: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
