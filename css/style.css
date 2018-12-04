@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 100px auto auto;
   grid-gap: 26px;
   margin: 0px;
   padding: 0px;
@@ -8,14 +8,59 @@ body {
 
 header {
   grid-area: auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 8px;
+}
+
+header div {
+  grid-area: auto;
 }
 
 footer {
   grid-area: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  grid-gap: 8px;
+}
+
+footer div {
+  display: flex;
+  grid-area: auto;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+footer div section {
+  width: 33%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer div section p {
+  text-align: center;
+}
+
+.misc {
+  display: block;
+}
+
+.misc p {
+  text-align: center;
 }
 
 main {
   grid-area: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  grid-gap: 8px;
+}
+
+main section {
+  min-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
