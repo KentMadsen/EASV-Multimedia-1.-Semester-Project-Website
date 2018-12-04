@@ -1,21 +1,3 @@
-body {
-  display: grid;
-  grid-template-rows: 100px 100px 100px;
-  grid-gap: 26px;
-  margin: 0px;
-  padding: 0px;
-}
-
-header {
-  grid-area: auto;
-}
-
-footer {
-  grid-area: auto;
-}
-
-main {
-  grid-area: auto;
-}
-
-/*# sourceMappingURL=style.css.map */
+version https://git-lfs.github.com/spec/v1
+oid sha256:1185046dcd0b3df02efd339af2a3b06ce90be0e2df7d53b6ec29a982fd9d9fd8
+size 2503
