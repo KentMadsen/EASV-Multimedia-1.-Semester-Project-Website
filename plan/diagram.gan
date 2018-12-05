@@ -43,8 +43,8 @@ Elizaveta Wagner
 Nanna Fabricius]]></notes>
                 </task>
                 <task id="43" name="Planlægning" color="#ffff00" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-11-30" duration="2" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
-                <task id="44" name="Vejledning" color="#ff9900" meeting="false" start="2018-12-03" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
                 <task id="63" name="Kontrakt Underskrevet" color="#ff0000" meeting="false" start="2018-12-03" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" priority="2" expand="true"/>
+                <task id="44" name="Vejledning" color="#ff9900" meeting="false" start="2018-12-04" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
                 <task id="45" name="Vejledning #2" color="#ff9900" meeting="false" start="2018-12-10" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="21" name="Groups formed" color="#000000" meeting="false" start="2018-12-11" duration="7" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true"/>
