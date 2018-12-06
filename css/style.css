@@ -212,6 +212,14 @@ main, body, header, footer {
   width: 100%;
 }
 
+#load_footer {
+  z-index: 10;
+}
+
+#load_header {
+  z-index: 10;
+}
+
 body {
   display: grid;
   grid-template-columns: auto;
