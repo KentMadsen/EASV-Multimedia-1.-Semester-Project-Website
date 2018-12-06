@@ -37,6 +37,10 @@ h1 {
   color: #D63031;
 }
 
+h2 {
+  margin-top: 8px;
+}
+
 h3 {
   margin-top: 8px;
   margin-bottom: 24px;
@@ -410,11 +414,11 @@ main section {
   margin: 0px;
   padding: 0px;
   display: grid;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  grid-gap: 8px;
-  grid-template-rows: auto;
+  margin-top: 32px;
+  grid-gap: 32px;
+  grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
 }
 
 .information-container img {
@@ -424,6 +428,9 @@ main section {
 .information-container span {
   grid-area: information_text;
   text-align: center;
+  word-spacing: 1.5px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .image-to-left {
