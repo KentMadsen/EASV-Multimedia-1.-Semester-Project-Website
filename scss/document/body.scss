@@ -39,7 +39,7 @@ body
 main 
 {
     @extend %no-base;
-    
+    padding-bottom: 26px;
     grid-area: auto;
 
     min-height: 500px;

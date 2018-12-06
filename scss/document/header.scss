@@ -15,6 +15,10 @@ header
     grid-template-rows: 15px auto;
     grid-gap: 0px;
     
+    
+    background-image: linear-gradient(to bottom, #fdfbfb, #ebedee);
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.45);
+
     z-index: 10;
 }
 
