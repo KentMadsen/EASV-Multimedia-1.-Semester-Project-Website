@@ -23,24 +23,19 @@
               href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
               integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
               crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous">
+      </script>
+
     </head>
 
     <body>
-            <script
-                    src="https://code.jquery.com/jquery-3.3.1.js"
-                    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-                    crossorigin="anonymous">
-            </script>
+        <header id="load_header">
+        </header>
 
-            <script src="./scripts/generic_header.js">
-            </script>
-
-            <script src="./scripts/generic_footer.js">
-            </script>
-
-
-<!-- Actual PAge-->
-
+<!-- Actual Page-->
         <main>
                 <div class="space-container">
                     <div class="image-cover-container">
@@ -79,8 +74,16 @@
                 </section>
             </div>
         </main>
+        <!-- End of Page-->
+
+        <footer id="load_footer">
+        </footer>
         
-        
-        
+        <script src="./scripts/generic_header.js" onload="loadHeaderArea();">
+        </script>
+
+        <script src="./scripts/generic_footer.js" onload="loadFooterArea();">
+        </script>
+
     </body>
 </html>
