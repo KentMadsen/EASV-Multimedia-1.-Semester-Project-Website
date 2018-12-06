@@ -165,7 +165,6 @@ footer {
   background-color: #090828;
   color: #FFFFFF;
   font-family: "verdana";
-  padding-bottom: 16px;
 }
 
 .contact-info p {
@@ -175,7 +174,13 @@ footer {
 
 .contact-info p a {
   color: white;
+  transition: 0.75s;
   text-decoration: none;
+}
+
+.contact-info p a:hover {
+  color: #D63031;
+  transition: 0.75s;
 }
 
 .footer-social-links {
@@ -190,6 +195,19 @@ footer {
   color: white;
   font-size: 48px;
   padding: 0px;
+  transition: 0.75s;
+}
+
+.footer-social-links a:hover {
+  color: #D63031;
+  transition: 0.75s;
+}
+
+.footer-base {
+  color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-image: linear-gradient(to bottom, #fdfbfb, #ebedee);
 }
 
 .footer-base p {
@@ -208,13 +226,18 @@ footer {
 .footer-base ol li {
   display: inline;
   list-style-type: none;
-  color: white;
 }
 
 .footer-base ol a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 12px;
+  transition: 0.75s;
+}
+
+.footer-base ol a:hover {
+  color: #D63031;
+  transition: 0.75s;
 }
 
 .footer-base ol a li {
