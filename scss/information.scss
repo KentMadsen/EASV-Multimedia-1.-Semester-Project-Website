@@ -1,3 +1,58 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3341423da1941e90e043ad1e83bf93cb010ed060dd3811be643cc3f99189965d
-size 755
+.information-container
+{
+    margin:0px;
+    padding: 0px;
+
+    display: grid;
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    grid-gap: 8px;
+    grid-template-rows: auto;
+    grid-template-columns:1fr 1fr;
+}
+
+.information-container img
+{
+    grid-area: information_img;
+
+}
+
+.information-container span 
+{
+    grid-area: information_text;
+    text-align: center;
+}
+
+.image-to-left
+{
+    grid-template-areas: "information_img information_text";
+
+}
+
+.image-to-right
+{
+    grid-template-areas: "information_text information_img";
+
+}
+
+h1 
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'verdana';
+    color: #D63031;
+}
+
+h2 
+{
+    text-transform: uppercase;
+    
+    font-family: 'verdana';
+}
+
+p 
+{
+    font-family: 'verdana';
+}
