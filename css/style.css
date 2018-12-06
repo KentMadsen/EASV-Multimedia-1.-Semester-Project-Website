@@ -255,13 +255,6 @@ main section {
   font-weight: bold;
 }
 
-h3 {
-  margin: 0px;
-  margin-top: 8px;
-  margin-bottom: 24px;
-  font-family: "Segoe UI";
-}
-
 .news-container {
   display: grid;
   grid-gap: 16px;
@@ -283,6 +276,7 @@ h3 {
 .news-full-card {
   width: 100%;
   height: 100%;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,6 +286,7 @@ h3 {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
   width: 100%;
   height: 100%;
 }
@@ -310,6 +305,25 @@ h3 {
   grid-template-columns: auto;
   grid-template-areas: "half" "half";
   grid-gap: 8px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "verdana";
+  color: #D63031;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "verdana";
+}
+
+h3 {
+  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-family: "verdana";
 }
 
 .information-container {
@@ -338,18 +352,6 @@ h3 {
 
 .image-to-right {
   grid-template-areas: "information_text information_img";
-}
-
-h1 {
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "verdana";
-  color: #D63031;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-family: "verdana";
 }
 
 p {
