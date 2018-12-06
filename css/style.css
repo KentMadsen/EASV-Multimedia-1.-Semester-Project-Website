@@ -255,13 +255,6 @@ main section {
   font-weight: bold;
 }
 
-h3 {
-  margin: 0px;
-  margin-top: 8px;
-  margin-bottom: 24px;
-  font-family: "Segoe UI";
-}
-
 .news-container {
   display: grid;
   grid-gap: 16px;
@@ -314,6 +307,25 @@ h3 {
   grid-gap: 8px;
 }
 
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "verdana";
+  color: #D63031;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "verdana";
+}
+
+h3 {
+  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-family: "verdana";
+}
+
 .information-container {
   margin: 0px;
   padding: 0px;
@@ -340,18 +352,6 @@ h3 {
 
 .image-to-right {
   grid-template-areas: "information_text information_img";
-}
-
-h1 {
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "verdana";
-  color: #D63031;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-family: "verdana";
 }
 
 p {
