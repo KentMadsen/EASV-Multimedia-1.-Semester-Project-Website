@@ -229,6 +229,7 @@ body {
 
 main {
   grid-area: auto;
+  min-height: 500px;
 }
 
 .page-limit {
