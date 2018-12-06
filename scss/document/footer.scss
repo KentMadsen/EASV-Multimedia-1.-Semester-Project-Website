@@ -3,22 +3,26 @@ footer
     z-index: 10;
     @extend %no-base;
 
-    padding-top: 16px;
-
     grid-area: auto;
     text-transform: uppercase;
 }
 
 .sponsored-by
 {
-    min-height: 175px;
 
-    padding-top: 8px;
-    padding-bottom: 8px;
+    min-height  : 175px;
 
-    background-image: linear-gradient(to bottom, #fdfbfb, #ebedee);
-    
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    padding-top     : 8px;
+    padding-bottom  : 8px;
+
+    background-image: linear-gradient( to bottom,
+                                     #fdfbfb,
+                                     #ebedee );
+
+    box-shadow: 0px 0px
+                16px
+                rgba( 0, 0, 0,
+                        0.25 );
 }
 
 .sponsored-by p 
@@ -40,20 +44,20 @@ footer
 
 .sponsored-by ol a
 {
-    opacity: 0.25;
+    opacity: $not-active-opacity;
     transition: $action-transition;
 }
 
 .sponsored-by ol a:hover
 {
-    opacity: 1.0;
+    opacity: $active-opacity;
     transition: $action-transition;
 }
 
 .sponsored-by ol a li
 {
-    list-style-type: none;
-    display: block;
+    list-style-type : none;
+    display         : block;
 }
 
 .sponsored-by ol a li img
