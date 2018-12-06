@@ -23,50 +23,19 @@
               href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
               integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
               crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous">
+      </script>
+
     </head>
 
     <body>
-        <header>
-            <nav>
-
-            </nav>
-            <nav id="header-navigation-color">
-                <ul>
-                    <div id="header-logo">
-                        <a href="./index.html" 
-                           hreflang="dk">
-                            <img src="./images/websitelogo.png"/>
-                        </a>
-                    </div>
-
-                    <a href="./information.html" 
-                       hreflang="dk">
-                        <li>
-                            Information
-                        </li>
-                    </a>
-                    <a href="./nyheder.html" 
-                       hreflang="dk">
-                        <li>
-                            Nyheder
-                        </li>
-                    </a>
-                    <a href="./abonnement.html" 
-                       hreflang="dk">
-                        <li>
-                            Abonnement
-                        </li>
-                    </a>
-                    <a href="./login.html" 
-                       hreflang="dk">
-                        <li>
-                            Log ind
-                        </li>
-                    </a>
-                </ul>
-            </nav>
+        <header id="load_header">
         </header>
 
+<!-- Actual Page-->
         <main>
                 <div class="space-container">
                     <div class="image-cover-container">
@@ -105,155 +74,16 @@
                 </section>
             </div>
         </main>
-        
-        <footer>
-            <div class="sponsored-by">
-                <ol>
-                    <a href="https://illvid.dk/"
-                       hreflang="da">
-                        <li>
-                            <img src="./images/illvid.png">
-                        </li>
-                    </a>
-                    <a href="http://www.au.dk/"
-                       hreflang="da">
-                        <li>
-                            <img src="./images/Aarhus-university.png">
-                        </li>
-                    </a>
-                    <a href="https://www.nasa.gov/"
-                       hreflang="en">
-                        <li>
-                            <img src="./images/nasa.png">
-                        </li>
-                    </a>
-                    <a href="https://www.easv.dk/da/"
-                       hreflang="da">
-                        <li>
-                            <img src="./images/easvlogo.png">
-                        </li>
-                    </a>
-                    <a href="https://www.ku.dk/"
-                       hreflang="da">
-                        <li>
-                            <img src="./images/ku_logo_dk_h.png">
-                        </li>
-                    </a>
-                </ol>
-            </div>
+        <!-- End of Page-->
 
-            <div class="footer-content">
-                <ol class="split-container">
-                    <!-- Contact Information -->
-                    <li class="contact-info">
-                        <p>
-                                Spangsbjerg Kirkevej 103 
-                        </p>
-                        <p>
-                                6700 Esbjerg
-                        </p>
-                        <p>
-                                +45 7613 3200
-                        </p>
-                        <p>
-                            Mail :
-                            <a href="mailto:spaced@gmail.com">
-                                contact@spaced.com
-                            </a>
-                        </p>
-                    </li>
-
-                    <!-- Social Links Information -->
-                    <li>
-                        <ul class="footer-social-links">
-                            <!-- Facebook-->
-                            <a href="https://www.facebook.com/" hreflang="">
-                                <li>
-                                    <i class="fab fa-facebook">
-                                    </i>
-                                </li>
-                            </a>
-
-                            <!-- Twitter -->
-                            <a href="https://twitter.com/" hreflang="">
-                                <li>
-                                    <i class="fab fa-twitter-square">
-                                    </i>
-                                </li>
-                            </a>
-                            
-                            <!-- Youtube -->
-                            <a href="https://www.youtube.com/" hreflang="">
-                                <li>
-                                    <i class="fab fa-youtube">
-                                    </i>
-                                </li>
-                            </a>
-
-                            <!-- Instagram -->
-                            <a href="https://www.instagram.com/" hreflang="">
-                                <li>
-                                    <i class="fab fa-instagram">
-                                    </i>
-                                </li>
-                            </a>
-                        </ul>
-                    </li>
-                </ol>
-                
-                <div class="footer-base">
-                    <p>
-                        Copyright 2018 Space Education
-                    </p>
-                    <ol>
-                        <a href="#">
-                            <li>
-                                Contact Us
-                            </li>
-                        </a>
-                        
-                        <li>
-                            |
-                        </li>
-                        
-                        <a href="#">
-                            <li>
-                                Legal 
-                            </li>
-                        </a>
-                        
-                        <li>
-                            |
-                        </li>
-                        
-                        <a href="#">
-                            <li>
-                                Trademark
-                            </li>
-                        </a>
-
-                        <li>
-                                |
-                        </li>
-
-                        <a href="#">
-                            <li>
-                               Cookie policy
-                            </li>
-                        </a>
-
-                        <li>
-                                |
-                        </li>
-
-                        <a href="#">
-                            <li>
-                                GDPR
-                            </li>
-                        </a>
-                    </ol>
-                </div>
-            </div>
+        <footer id="load_footer">
         </footer>
+        
+        <script src="./scripts/generic_header.js" onload="loadHeaderArea();">
+        </script>
+
+        <script src="./scripts/generic_footer.js" onload="loadFooterArea();">
+        </script>
+
     </body>
 </html>
