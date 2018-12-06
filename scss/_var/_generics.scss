@@ -1,0 +1,52 @@
+%no-margins
+{
+    margin  : 0px;
+}
+
+%no-paddings
+{
+    padding : 0px;
+}
+
+%no-base
+{
+    @extend %no-margins;
+    @extend %no-paddings;
+
+    width   : 100%;
+}
+
+%extend-height-fully
+{
+    height: 100%;
+}
+
+%extend-width-fully
+{
+    width: 100%;
+}
+
+%extend-element-fully
+{
+    @extend %extend-width-fully;
+    @extend %extend-height-fully;
+}
+
+%document-container-front
+{
+    z-index: 10;
+}
+
+/* 
+    Text Generics
+*/
+%default-header
+{
+    font-family: $primary_font;
+    text-transform: uppercase;
+}
+
+%default-paragraph
+{
+    font-family: $secondary_font;
+}

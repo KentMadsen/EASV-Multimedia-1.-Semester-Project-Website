@@ -1,23 +1,50 @@
-/* Base */
-h1 {
+h3, main, body, footer, header {
+  margin: 0px;
+}
+
+main, body, footer, header {
+  padding: 0px;
+}
+
+main, body, footer, header {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+#load_header, #load_footer {
+  z-index: 10;
+}
+
+/* 
+    Text Generics
+*/
+h3, h2, h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
+}
+
+* {
+  font-family: "open sans";
+}
+
+/* Base */
+/*  */
+h1 {
   text-align: center;
-  font-family: "verdana";
   color: #D63031;
 }
 
-h2 {
-  text-transform: uppercase;
-  font-family: "verdana";
-}
-
 h3 {
-  margin: 0px;
   margin-top: 8px;
   margin-bottom: 24px;
-  font-family: "verdana";
 }
 
+/*
+    Placeholder Areas
+*/
 header nav ul {
   margin: 0px;
 }
@@ -220,31 +247,16 @@ footer {
   list-style-type: none;
 }
 
-main, body, header, footer {
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-}
-
-#load_footer {
-  z-index: 10;
-}
-
-#load_header {
-  z-index: 10;
-}
-
 body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
-  grid-gap: 8px;
+  grid-gap: 32px;
 }
 
 main {
-  padding-bottom: 26px;
   grid-area: auto;
-  min-height: 500px;
+  min-height: 450px;
 }
 
 .page-limit {

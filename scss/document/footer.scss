@@ -10,7 +10,7 @@ footer
 .sponsored-by
 {
 
-    min-height  : 175px;
+    min-height  : $document-footer-sponsor-minimum-height;
 
     padding-top     : 8px;
     padding-bottom  : 8px;
