@@ -22,7 +22,14 @@ footer
 
 .sponsored-by ol a
 {
+    opacity: 0.25;
+    transition: $action-transition;
+}
 
+.sponsored-by ol a:hover
+{
+    opacity: 1.0;
+    transition: $action-transition;
 }
 
 .sponsored-by ol a li
@@ -33,8 +40,14 @@ footer
 
 .sponsored-by ol a li img
 {
-    height: 100px;
+    transition: $action-transition;
+    height: 75px;
+}
 
+.sponsored-by ol a:hover li img 
+{
+    transition: $action-transition;
+    height: 100px;
 }
 
 .footer-content
