@@ -12,6 +12,16 @@
     width   : 100%;
 }
 
+#load_footer
+{
+    z-index: 10;
+}
+
+#load_header 
+{
+    z-index: 10;
+}
+
 body 
 {
     @extend %no-base;
