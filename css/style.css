@@ -91,12 +91,28 @@ footer {
   justify-content: space-around;
 }
 
+.sponsored-by ol a {
+  opacity: 0.25;
+  transition: 1s;
+}
+
+.sponsored-by ol a:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
 .sponsored-by ol a li {
   list-style-type: none;
   display: block;
 }
 
 .sponsored-by ol a li img {
+  transition: 1s;
+  height: 75px;
+}
+
+.sponsored-by ol a:hover li img {
+  transition: 1s;
   height: 100px;
 }
 
