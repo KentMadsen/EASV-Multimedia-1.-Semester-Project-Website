@@ -1,0 +1,55 @@
+@import './images.scss';
+
+#page_information_image
+{
+    position: absolute;
+
+    top:-10px;
+
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+}
+
+@media only screen and ( min-width:0px )
+{
+    #page_information_image
+    {
+        background-image: url('../images/covers/info/256/info.png');
+    }
+}
+
+@media only screen and ( min-width:257px )
+{
+    #page_information_image
+    {
+        background-image: url('../images/covers/info/512/info.png');
+    }
+}
+
+
+@media only screen and ( min-width:513px )
+{
+    #page_information_image
+    {
+        background-image: url('../images/covers/info/1024/info.png');
+    }
+}
+
+
+@media only screen and ( min-width:1025px )
+{
+    #page_information_image
+    {
+        background-image: url('../images/covers/info/2048/info.png');
+    }
+}
+
+@media only screen and ( min-width:1920px )
+{
+    #page_information_image
+    {
+        background-image: url('../images/covers/info/original/info.png');
+    }
+}
