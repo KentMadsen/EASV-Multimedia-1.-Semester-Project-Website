@@ -90,6 +90,10 @@ footer {
   min-height: 125px;
 }
 
+.sponsored-by p {
+  text-align: center;
+}
+
 .sponsored-by ol {
   display: flex;
   justify-content: space-around;

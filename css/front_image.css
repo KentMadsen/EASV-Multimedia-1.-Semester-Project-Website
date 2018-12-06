@@ -9,22 +9,22 @@
 /* Depended on screen size */
 @media only screen and (min-width: 0px) {
   #page_front_image {
-    background-image: url("../images/covers/front/256/front.jpg");
+    background-image: url("../images/covers/front/256/front.png");
   }
 }
 @media only screen and (min-width: 257px) {
   #page_front_image {
-    background-image: url("../images/covers/front/512/front.jpg");
+    background-image: url("../images/covers/front/512/front.png");
   }
 }
 @media only screen and (min-width: 513px) {
   #page_front_image {
-    background-image: url("../images/covers/front/1024/front.jpg");
+    background-image: url("../images/covers/front/1024/front.png");
   }
 }
 @media only screen and (min-width: 1025px) {
   #page_front_image {
-    background-image: url("../images/covers/front/2048/front.jpg");
+    background-image: url("../images/covers/front/2048/front.png");
   }
 }
 /* Anything above normal size */
