@@ -1,0 +1,38 @@
+%no-base
+{
+    padding : 0px;
+    margin  : 0px;
+
+    width   : 100%;
+}
+
+body 
+{
+    @extend %no-base;
+
+    display               : grid;
+
+    grid-template-columns : auto;
+    grid-template-rows    : auto auto auto;
+
+    grid-gap              : 8px;
+}
+
+main 
+{
+    @extend %no-base;
+    
+    grid-area: auto;
+
+}
+
+.page-limit
+{
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import './header.scss';
+@import './footer.scss';

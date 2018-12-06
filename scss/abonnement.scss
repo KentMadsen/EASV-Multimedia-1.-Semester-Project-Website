@@ -1,0 +1,98 @@
+.abonnement-page
+{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abonnement-page p 
+{
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.abonnement-page ul li
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.options-list
+{
+    display: flex;
+
+    margin: 0px;
+    justify-content: center;
+}
+
+.option
+{
+    
+
+    width: 250px;
+    height: 250px;
+
+    margin-right : 28px;
+    margin-left  : 28px;
+    position: relative;
+}
+
+#brev
+{
+    background-image: url('../images/mail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+#opret-profile
+{
+    background-image: url('../images/www.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+#contact
+{
+    background-image: url('../images/tlf.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.option-description
+{
+    width: 100%;
+
+    position: absolute;
+    background-color: #DFE6E9;
+    margin: 0px;
+    padding: 0px;
+    
+    bottom: 0px;
+
+    border:1px solid #707070;
+}
+
+.option-description p
+{
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 12px;
+    text-align: center;
+
+
+}
+
+.option-description p:first-child
+{
+    margin-top: 8px;
+}
+
+.option-description p:last-child
+{
+    margin-bottom: 8px;
+}
