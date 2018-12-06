@@ -1,23 +1,22 @@
-h1 
+h1
 {
-    text-transform: uppercase;
+    @extend %default-header;
+    
     text-align: center;
-    font-family: 'verdana';
     color: #D63031;
 }
 
-h2 
+h2
 {
-    text-transform: uppercase;
-    
-    font-family: 'verdana';
+    @extend %default-header;
+
 }
 
-
-h3 
+h3
 {
-    margin: 0px;
-    margin-top: 8px;
-    margin-bottom: 24px;
-    font-family: 'verdana';
+    @extend %default-header;
+    @extend %no-margins;
+
+    margin-top      : 8px;
+    margin-bottom   : 24px;
 }

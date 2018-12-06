@@ -1,7 +1,15 @@
 $action-transition : 0.75s;
 
-$primary_font: verdana;
-
+$primary_font: Verdana, Geneva, Tahoma, sans-serif;
+$secondary_font: 'open sans';
 
 $not-active-opacity: 0.25;
 $active-opacity: 1.00;
+
+$document-page-gap: 32px;
+$document-page-gap-offset: -32px;
+
+$document-main-minimum-height: 450px;
+
+$document-footer-sponsor-minimum-height:175px;
+
