@@ -6,6 +6,7 @@
   background-size: cover;
 }
 
+/* Depended on screen size */
 @media only screen and (min-width: 0px) {
   #page_information_image {
     background-image: url("../images/covers/info/256/info.png");
@@ -26,6 +27,7 @@
     background-image: url("../images/covers/info/2048/info.png");
   }
 }
+/* Anything above normal size */
 @media only screen and (min-width: 1920px) {
   #page_information_image {
     background-image: url("../images/covers/info/original/info.png");
