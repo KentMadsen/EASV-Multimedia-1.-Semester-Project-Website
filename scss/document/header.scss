@@ -41,6 +41,8 @@ header nav
 */
 header nav ul 
 {
+    height: 36px;
+    padding: 0px;
     margin-top: 8px;
     @extend %no-margin;
     display: flex;
@@ -53,7 +55,7 @@ header nav ul
 */
 header nav ul a 
 {
-   color: #FFFFFF;
+   color: $link-rest-color;
    text-decoration: none;
     
    list-style-type: none;
@@ -63,6 +65,12 @@ header nav ul a
 
    font-family: 'verdana';
 }
+
+header nav ul a:hover
+{
+   color: $link-active-color;
+}
+
 
 header nav ul a li 
 {
