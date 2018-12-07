@@ -110,6 +110,6 @@ header nav ul a
 
 header nav ul a:hover
 {
-    @extend %action-button;
+   @extend %action-button;
    color: $link-active-color;
 }

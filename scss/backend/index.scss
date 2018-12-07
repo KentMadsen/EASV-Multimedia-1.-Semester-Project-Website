@@ -95,7 +95,7 @@ main section
     grid-template-columns: 1fr 1fr;
 
     width: 100%;
-    height: 750px;
+    height: 600px;
 
     margin:0px;
     padding: 0px;
@@ -144,7 +144,7 @@ main section
     grid-template-columns: auto;
 
     grid-template-areas: "full";
-    grid-gap: 8px;
+    grid-gap: 16px;
 }
 
 .section-container-2
@@ -156,5 +156,5 @@ main section
 
     grid-template-areas: "half"
                          "half";
-    grid-gap: 8px;
+    grid-gap: 16px;
 }
