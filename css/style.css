@@ -34,6 +34,10 @@ a h4, h3, h2, h1 {
   font-family: "open sans";
 }
 
+header nav ul a:hover, header nav ul a {
+  transition: 0.75s;
+}
+
 /* Base */
 /*  */
 h1 {
