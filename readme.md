@@ -1,8 +1,6 @@
 # Multimedia AK Semester Project
-Authors: Elizaveta Wagner
-         
-         Kent vejrup Madsen
-         
+Authors: Elizaveta Wagner,
+         Kent vejrup Madsen,
          Nanna Fabricius
 
 # Notes
