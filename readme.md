@@ -1,7 +1,9 @@
 # Multimedia AK Semester Project
-Authors: Elizaveta Wagner 
+Authors: Elizaveta Wagner
+         
          Kent vejrup Madsen
-         Nanna Fabricius 
+         
+         Nanna Fabricius
 
 # Notes
 For at køre sass
