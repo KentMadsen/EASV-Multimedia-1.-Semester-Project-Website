@@ -129,10 +129,12 @@ main section
     background-repeat: no-repeat;
     background-size: cover;
 
-    
-    box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.25);
+    box-shadow: 4px 4px 
+                8px 
+                rgba( $color : #000000, 
+                      $alpha : 0.25 );
 
-    width: 100%;
+    width : 100%;
     height: 100%;
 }
 
