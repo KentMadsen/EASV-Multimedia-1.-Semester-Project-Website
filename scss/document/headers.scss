@@ -47,4 +47,5 @@ a:hover h4
     transition: $action-transition;
     background-color: #D63031;
     color: white;
+    border:2px solid rgba($color: #D63031, $alpha: 0.0);
 }
