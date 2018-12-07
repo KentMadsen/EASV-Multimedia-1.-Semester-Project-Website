@@ -570,11 +570,11 @@ p {
 .option-description {
   width: 100%;
   position: absolute;
+  bottom: 0px;
   background-color: #DFE6E9;
+  background-image: linear-gradient(to bottom, #fdfbfb, #ebedee);
   margin: 0px;
   padding: 0px;
-  bottom: 0px;
-  border: 1px solid #707070;
 }
 
 .option-description p {
