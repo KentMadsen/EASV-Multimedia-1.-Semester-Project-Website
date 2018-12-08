@@ -1,26 +1,29 @@
 .space-container
 {
-    width: 100%;
-    height: 725px;
+    width  : 100%;
+    height : 725px;
 }
+
 
 .image-cover-container
 {
-    width: 100%;
-    height: 100%;
-    position: relative;
+    width  : 100%;
+    height : 100%;
     
-    background-size: cover;
+    position : relative;
+    
+    background-size : cover;
 }
 
-.image-cover-container img 
+.image-cover-container img
 {
-    position: absolute;
-    top: -60px;
-    z-index: -1;
+    position : absolute;
+    top      : -60px;
+    
+    z-index : -1;
 
-    width: 100%;
-    height: auto;
+    width  : 100%;
+    height : auto;
 }
 
 .unknown-area
@@ -31,53 +34,55 @@
 main section 
 {
     
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 16px;
+    margin-left  : 25px;
+    margin-right : 25px;
+    margin-top   : 16px;
 }
 
 .container-area
 {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 8px;
+    display : grid;
+    
+    grid-template-rows    : auto;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+
+    grid-gap              : 8px;
 }
 
 .contained
 {
-    grid-area: auto;
+    grid-area : auto;
 }
 
 .area
 {
-    margin-left:4px;
-    margin-right: 4px; 
+    margin-left  :4px;
+    margin-right : 4px;
 }
 
 .area img
 {
-    width: 100%;
+    width : 100%;
 }
 
 .conference
 {
-    margin: 0px;
-    margin-top: 16px;
+    margin      : 0px;
+    margin-top  : 16px;
     
-    background-color: #DFE6E9;
-    border:1px solid #707070;
+    background-color : #DFE6E9;
+    border           : 1px solid #707070;
     
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top     : 8px;
+    padding-bottom  : 8px;
 
-    padding-left : 32px;
-    padding-right: 32px;
+    padding-left    : 32px;
+    padding-right   : 32px;
 }
 
 .conference p 
 {
-    margin-top:4px;
+    margin-top : 4px;
 
 }
 
@@ -89,74 +94,79 @@ main section
 
 .news-container
 {
-    display: grid;
-    grid-gap: 16px;
+    display : grid;
 
-    grid-template-columns: 1fr 1fr;
+    grid-gap              : 16px;
+    grid-template-columns : 1fr 1fr;
 
-    width: 100%;
-    height: 600px;
+    width   : 100%;
+    height  : 600px;
 
-    margin:0px;
-    padding: 0px;
+    margin  : 0px;
+    padding : 0px;
 }
 
 .news-container p
 {
-    color: white;
-    position: absolute;
+    color       : white;
+    position    : absolute;
 
-    width: 100%;
-    text-align: center;
-    bottom: 12px;
+    width   : 100%;
+
+    text-align  : center;
+    bottom      : 12px;
 }
 
 .news-full-card
 {
-    width: 100%;
-    height: 100%;
+    width   : 100%;
+    height  : 100%;
 
-    box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.25);
+    box-shadow  : 4px 4px
+                  8px
+                  rgba($color: #000000, $alpha: 0.25);
 
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position    : relative;
+
+    background-repeat   : no-repeat;
+    background-size     : cover;
 }
 
 .news-half-card
 {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position            : relative;
 
-    box-shadow: 4px 4px 
-                8px 
-                rgba( $color : #000000, 
+    background-repeat   : no-repeat;
+    background-size     : cover;
+
+    box-shadow: 4px 4px
+                8px
+                rgba( $color : #000000,
                       $alpha : 0.25 );
 
-    width : 100%;
-    height: 100%;
+    width  : 100%;
+    height : 100%;
 }
 
-.section-container-1 
+.section-container-1
 {
     display: grid;
     
-    grid-template-rows: 1fr;
-    grid-template-columns: auto;
+    grid-template-rows      : 1fr;
+    grid-template-columns   : auto;
 
-    grid-template-areas: "full";
-    grid-gap: 16px;
+    grid-template-areas     : "full";
+    grid-gap                : 16px;
 }
 
 .section-container-2
 {
-    display: grid;
+    display : grid;
     
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: auto;
+    grid-template-rows : 1fr 1fr;
+    grid-template-columns : auto;
 
-    grid-template-areas: "half"
-                         "half";
-    grid-gap: 16px;
+    grid-template-areas : "half"
+                          "half";
+    grid-gap : 16px;
 }
