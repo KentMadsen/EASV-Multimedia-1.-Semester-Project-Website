@@ -46,6 +46,7 @@ footer
 
 .sponsored-by ol a
 {
+    @extend %default-link;
     opacity : $not-active-opacity;
     
     transition : $action-transition;
@@ -99,7 +100,7 @@ footer
 .contact-info p a 
 {
     @extend %resting;
-    text-decoration : none;
+    @extend %default-link;
 }
 
 .contact-info p a:hover
@@ -112,11 +113,11 @@ footer
     @extend %none-list-style-type;
     @extend %no-paddings;
 
+    @extend %extend-height-fully;
+
     display : flex;
     
     justify-content : center;
-    
-    height  : 100%;
 }
 
 .footer-social-links a 
@@ -168,20 +169,15 @@ footer
 
 .footer-base ol a 
 {
-    color : $link-default-rest-color;
-    
-    text-decoration : none;
+    @extend %resting;
+    @extend %default-link;
     
     font-size : 12px;
-    
-    transition : $action-transition;
 }
 
 .footer-base ol a:hover
 {
-    color : $link-active-color;
-
-    transition : $action-transition;
+    @extend %activate;
 }
 
 .footer-base ol a li
@@ -219,11 +215,11 @@ footer
 
 .split-container li 
 {
+    @extend %none-list-style-type;
     grid-area : auto;
-    
+
     display : block;
 
-    @extend %none-list-style-type;
 }
 
 
