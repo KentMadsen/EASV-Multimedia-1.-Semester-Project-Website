@@ -6,9 +6,8 @@
 #page_front_image
 {
     @extend %extend-element-fully;
-    position : absolute;
-
     top      : $document-page-gap-offset;
+    position : absolute;
 
     background-size : cover;
 }
@@ -50,7 +49,7 @@
 }
 
 /* Anything above normal size */
-@media only screen and ( min-height:1920px )
+@media only screen and ( min-height:2049px )
 {
     #page_front_image
     {

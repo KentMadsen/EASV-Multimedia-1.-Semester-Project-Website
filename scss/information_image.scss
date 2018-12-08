@@ -8,9 +8,9 @@
 {
     @extend %extend-element-fully;
 
+    top      : $document-page-gap-offset;
     position : absolute;
 
-    top      : $document-page-gap-offset;
 
     background-size : cover;
 }
@@ -51,7 +51,7 @@
 }
 
 /* Anything above normal size */
-@media only screen and ( min-height:1920px )
+@media only screen and ( min-height:2049px )
 {
     #page_information_image
     {
