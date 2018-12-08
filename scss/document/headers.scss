@@ -22,12 +22,12 @@ h3
 }
 
 a h4 
-{  @extend %default-header;
+{  
+   @extend %default-header;
    @extend %no-margins;
+   @extend %resting;
 
    position: absolute;
-
-   color: #D63031;
    
    bottom: 25%;
    
@@ -39,18 +39,16 @@ a h4
    padding : 8px;
 
    border-radius : 8px;
-   border        : 2px solid #D63031;
+   border        : 2px solid white;
+
+
    
-   transition : $action-transition;
 }
 
 a:hover h4 
 {
-    transition : $action-transition;
-    
-    color            : white;
-    background-color : #D63031;
+    @extend %activate;
 
     border : 2px solid rgba( $color: #D63031,
-                             $alpha: 0.0 );
+                             $alpha: 1.0 );
 }
