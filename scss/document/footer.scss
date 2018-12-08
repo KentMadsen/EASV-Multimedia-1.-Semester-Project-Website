@@ -41,12 +41,12 @@ footer
     @extend %no-margin-or-padding;
 
     display : flex;
-
     justify-content : space-around;
 }
 
 .sponsored-by ol a
 {
+    @extend %default-link;
     opacity : $not-active-opacity;
     
     transition : $action-transition;
@@ -93,21 +93,19 @@ footer
 .contact-info p 
 {
     @extend %no-margins;
+
     text-align : center;
 }
 
 .contact-info p a 
 {
-    color : $link-rest-color;
-    
-    transition : $action-transition;
-    text-decoration : none;
+    @extend %resting;
+    @extend %default-link;
 }
 
 .contact-info p a:hover
 {
-    color : $link-active-color;
-    transition : $action-transition;
+    @extend %activate;
 }
 
 .footer-social-links
@@ -115,27 +113,24 @@ footer
     @extend %none-list-style-type;
     @extend %no-paddings;
 
+    @extend %extend-height-fully;
+
     display : flex;
     
     justify-content : center;
-    
-    height  : 100%;
 }
 
 .footer-social-links a 
 {
     @extend %no-paddings;
+    @extend %resting;
 
-    color : $link-rest-color;
     font-size : 48px;
-
-    transition : $action-transition;
 }
 
 .footer-social-links a:hover
 {
-    color : $link-active-color;
-    transition : $action-transition;
+    @extend %activate;
 }
 
 .footer-base
@@ -174,20 +169,15 @@ footer
 
 .footer-base ol a 
 {
-    color : $link-default-rest-color;
-    
-    text-decoration : none;
+    @extend %resting;
+    @extend %default-link;
     
     font-size : 12px;
-    
-    transition : $action-transition;
 }
 
 .footer-base ol a:hover
 {
-    color : $link-active-color;
-
-    transition : $action-transition;
+    @extend %activate;
 }
 
 .footer-base ol a li
@@ -225,11 +215,11 @@ footer
 
 .split-container li 
 {
+    @extend %none-list-style-type;
     grid-area : auto;
-    
+
     display : block;
 
-    @extend %none-list-style-type;
 }
 
 
