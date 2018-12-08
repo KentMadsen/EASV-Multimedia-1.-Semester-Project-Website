@@ -5,4 +5,6 @@ Authors: Elizaveta Wagner,
 
 # Notes
 For at køre sass
+    sass ./scss/front_image.scss ./css/front_image.css
+    sass ./scss/information_image.scss ./css/information_image.css
     sass ./scss/style.scss ./css/style.css

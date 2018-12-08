@@ -8,42 +8,49 @@
 
 .abonnement-page p 
 {
-    margin-left: 40px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left : 40px;
+    
+    font-weight : bold;
+
+    font-family : Verdana,
+                  Geneva,
+                  Tahoma,
+                  sans-serif;
 }
 
 .abonnement-page ul li
 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
+    font-family     : Verdana, 
+                      Geneva, 
+                      Tahoma, 
+                      sans-serif;
+
+    text-decoration : underline;
 }
 
 .options-list
 {
-    display: flex;
+    display : flex;
 
-    margin: 0px;
+    margin : 0px;
     
-    justify-content: center;
+    justify-content : center;
 }
 
 .option
 {
-    
-
-    width: 250px;
-    height: 250px;
+    width   : 250px;
+    height  : 250px;
 
     margin-right : 28px;
     margin-left  : 28px;
 
-    position: relative;
+    position : relative;
 }
 
-#brev
+//
+%option-type-show
 {
-    background-image    : url('../images/mail.png');
     background-repeat   : no-repeat;
     background-size     : cover;
 
@@ -52,64 +59,57 @@
     border : 4px solid black;
 }
 
+#brev
+{
+    @extend %option-type-show;
+
+    background-image    : url('../images/mail.png');
+    
+}
+
 #opret-profile
 {
-    background-image    : url('../images/www.png');
-    background-repeat   : no-repeat;
-    background-size     : cover;
+    @extend %option-type-show;
     
-    border-radius: 100%;
-
-    border : 4px solid black;
+    background-image    : url('../images/www.png');
 }
 
 #contact
 {
-    background-image    : url('../images/tlf.png');
-    background-repeat   : no-repeat;
-    background-size     : cover;
-
-    border-radius: 100%;
+    @extend %option-type-show;
     
-    border : 4px solid black;
+    background-image    : url('../images/tlf.png');
 }
 
 .option-description
 {
-    width: 100%;
+    @extend %no-margin-or-padding;
+    @extend %extend-width-fully;
 
     position : absolute;
     bottom   : 0px;
 
     background-color: #DFE6E9;
     
-    
     background-image : linear-gradient( to bottom,
                                         #fdfbfb,
                                         #ebedee );
-    
-    margin  : 0px;
-    padding : 0px;
-
 }
 
 .option-description p
 {
-    margin: 0px;
-    padding: 0px;
+    @extend %no-margin-or-padding;
 
-    font-size: 12px;
-    text-align: center;
-
-
+    font-size  : 12px;
+    text-align : center;
 }
 
 .option-description p:first-child
 {
-    margin-top: 8px;
+    margin-top : 8px;
 }
 
 .option-description p:last-child
 {
-    margin-bottom: 8px;
+    margin-bottom : 8px;
 }

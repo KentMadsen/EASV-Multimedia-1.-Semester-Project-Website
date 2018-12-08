@@ -1,3 +1,6 @@
+$nn : none;
+$phundred : 100%;
+
 %no-margins
 {
     margin  : 0px;
@@ -8,24 +11,30 @@
     padding : 0px;
 }
 
-%no-base
+%no-margin-or-padding
 {
     @extend %no-margins;
     @extend %no-paddings;
-
-    width   : 100%;
 }
 
 %extend-height-fully
 {
-    height: 100%;
+    height: $phundred;
 }
 
 %extend-width-fully
 {
-    width: 100%;
+    width: $phundred;
 }
 
+//
+%no-base
+{
+    @extend %no-margin-or-padding;
+    @extend %extend-width-fully;
+}
+
+// Expand width and height to 100%
 %extend-element-fully
 {
     @extend %extend-width-fully;
@@ -37,18 +46,28 @@
     z-index: 10;
 }
 
+%none-list-style-type
+{
+    list-style-type: $nn;
+}
+
 /* 
     Text Generics
 */
+%default-uppercase
+{
+    text-transform : uppercase;
+}
+
 %default-header
 {
-    font-family: $primary_font;
-    text-transform: uppercase;
+    @extend %default-uppercase;
+    font-family : $primary_font;
 }
 
 %default-paragraph
 {
-    font-family: $secondary_font;
+    font-family : $secondary_font;
 }
 
 @import './_animated.scss';
