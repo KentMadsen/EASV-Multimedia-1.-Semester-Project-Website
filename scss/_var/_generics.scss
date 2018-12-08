@@ -8,10 +8,15 @@
     padding : 0px;
 }
 
-%no-base
+%no-margin-or-padding
 {
     @extend %no-margins;
     @extend %no-paddings;
+}
+
+%no-base
+{
+    @extend %no-margin-or-padding;
 
     width   : 100%;
 }

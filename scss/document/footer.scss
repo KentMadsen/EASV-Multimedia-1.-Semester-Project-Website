@@ -37,8 +37,7 @@ footer
 
 .sponsored-by ol
 {
-    padding : 0px;
-    margin  : 0px;
+    @extend %no-margin-or-padding;
 
     display : flex;
 
@@ -68,13 +67,13 @@ footer
 .sponsored-by ol a li img
 {
     transition: $action-transition;
-    height: 75px;
+    height : 75px;
 }
 
 .sponsored-by ol a:hover li img 
 {
-    transition: $action-transition;
-    height: 100px;
+    transition : $action-transition;
+    height : 100px;
 }
 
 .footer-content
@@ -119,6 +118,7 @@ footer
     justify-content : center;
     
     height  : 100%;
+
     padding :0px;
     
 }
@@ -127,7 +127,9 @@ footer
 {
     color : $link-rest-color;
     font-size : 48px;
+    
     padding : 0px;
+
     transition : $action-transition;
 }
 
@@ -155,39 +157,38 @@ footer
 
     text-align : center;
     
-    margin  : 0px;
-    padding : 0px;
+    @extend %no-margin-or-padding;
 }
 
 .footer-base ol 
 {
-    margin  : 0px;
-    padding : 0px;
+    @extend %no-margin-or-padding;
 
-    text-align: center;
+    text-align : center;
 }
 
 .footer-base ol li 
 {
-    display: inline;
-    list-style-type: none;
-    
+    display : inline;
+    list-style-type : none;
     
 }
 
 .footer-base ol a 
 {
-    color: $link-default-rest-color;
-    text-decoration: none;
-    font-size: 12px;
+    color : $link-default-rest-color;
     
-    transition: $action-transition;
+    text-decoration : none;
+    
+    font-size : 12px;
+    
+    transition : $action-transition;
 }
 
 .footer-base ol a:hover
 {
-    color: $link-active-color;
-    transition: $action-transition;
+    color : $link-active-color;
+    transition : $action-transition;
 }
 
 .footer-base ol a li
@@ -198,37 +199,36 @@ footer
 
 .footer-social-links a li
 {
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top    : 8px;
+    margin-bottom : 8px;
 
-    margin-right: 16px;
-    margin-left: 16px;
-    
-    
+    margin-right : 16px;
+    margin-left  : 16px;
+
     vertical-align: center;
-
 }
 
 .split-container
 {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto auto;
+    @extend %no-margin-or-padding;
 
-    grid-gap: 16px;
-    padding:0px;
+    display : grid;
+    grid-template-rows    : auto;
+    grid-template-columns : auto auto;
 
-    padding-top: 16px;
-    padding-bottom: 16px;
-    
-    margin:0px;
+    grid-gap              : 16px;
+
+    padding-top     : 16px;
+    padding-bottom  : 16px;
 }
 
 .split-container li 
 {
-    grid-area: auto;
-    display: block;
-    list-style-type: none;
+    grid-area : auto;
+    
+    display : block;
+
+    list-style-type : none;
 
 }
 
