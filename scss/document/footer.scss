@@ -98,13 +98,13 @@ footer
 
 .contact-info p a 
 {
+    @extend %activate;
     text-decoration : none;
 }
 
 .contact-info p a:hover
 {
-    color : $link-active-color;
-    transition : $action-transition;
+    @extend %resting;
 }
 
 .footer-social-links
