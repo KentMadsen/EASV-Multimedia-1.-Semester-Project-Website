@@ -56,7 +56,7 @@ main section
 
 .area
 {
-    margin-left  :4px;
+    margin-left  : 4px;
     margin-right : 4px;
 }
 
@@ -102,8 +102,7 @@ main section
     width   : 100%;
     height  : 600px;
 
-    margin  : 0px;
-    padding : 0px;
+    @extend %no-margin-or-padding;
 }
 
 .news-container p

@@ -39,8 +39,6 @@
 
 .option
 {
-    
-
     width   : 250px;
     height  : 250px;
 
@@ -96,19 +94,15 @@
                                         #fdfbfb,
                                         #ebedee );
     
-    margin  : 0px;
-    padding : 0px;
+    @extend %no-margin-or-padding;
 }
 
 .option-description p
 {
-    margin  : 0px;
-    padding : 0px;
+    @extend %no-margin-or-padding;
 
     font-size  : 12px;
     text-align : center;
-
-
 }
 
 .option-description p:first-child

@@ -1,9 +1,8 @@
 .information-container
 {
-    margin      : 0px;
+    @extend %no-margin-or-padding;
+ 
     margin-top  : 32px;
-
-    padding : 0px;
 
     display : grid;
     
@@ -11,7 +10,6 @@
 
     grid-template-rows    : 1fr;
     grid-template-columns : 1fr 1fr;
-    
 }
 
 .information-container img
@@ -23,13 +21,13 @@
 .information-container span 
 {
     grid-area  : information_text;
+    
     text-align : center;
 
     word-spacing : 1.5px;
 
     padding-left  : 16px;
     padding-right : 16px;
-    
 }
 
 .image-to-left
