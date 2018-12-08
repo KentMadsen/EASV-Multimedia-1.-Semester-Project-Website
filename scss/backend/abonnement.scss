@@ -30,7 +30,7 @@
 
 .options-list
 {
-    display: flex;
+    display : flex;
 
     margin : 0px;
     
@@ -83,6 +83,8 @@
 
 .option-description
 {
+    @extend %no-margin-or-padding;
+
     width: 100%;
 
     position : absolute;
@@ -93,8 +95,6 @@
     background-image : linear-gradient( to bottom,
                                         #fdfbfb,
                                         #ebedee );
-    
-    @extend %no-margin-or-padding;
 }
 
 .option-description p
