@@ -84,8 +84,7 @@
 .option-description
 {
     @extend %no-margin-or-padding;
-
-    width: 100%;
+    @extend %extend-width-fully;
 
     position : absolute;
     bottom   : 0px;
