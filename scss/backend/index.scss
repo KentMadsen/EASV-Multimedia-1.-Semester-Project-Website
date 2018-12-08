@@ -1,3 +1,37 @@
+a h4 
+{  
+   @extend %default-header;
+   @extend %no-margins;
+   @extend %resting;
+
+   position: absolute;
+   
+   bottom: 25%;
+   
+   left: 50%;
+
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
+
+   padding : 8px;
+
+   border-radius : 8px;
+   border        : 2px solid white;
+
+
+   
+}
+
+a:hover h4 
+{
+    @extend %activate;
+
+    border : 2px solid rgba( $color: #D63031,
+                             $alpha: 1.0 );
+
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.75);
+}
+
 .space-container
 {
     @extend %extend-width-fully;

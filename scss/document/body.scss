@@ -40,3 +40,78 @@ main
     margin-left  : auto;
     margin-right : auto;
 }
+
+
+/* 
+    Body Rules Depended on size
+*/
+
+
+/*
+    0 <-> 256px
+*/
+@media only screen and ( max-width:256px )
+{
+    
+}
+
+/*
+    257px <-> 512px
+*/
+@media only screen and ( max-width:512px )
+{
+    
+}
+
+/*
+    513px<->768px
+*/
+@media only screen and ( max-width:768px )
+{
+    
+}
+
+/*
+    769px<->1024px
+*/
+@media only screen and ( max-width:1024px )
+{
+    
+
+}
+
+/*
+    1025px <-> 1280px
+*/
+@media only screen and ( max-width:1280px )
+{
+    
+
+}
+
+/*
+    1281px <-> 1536px
+*/
+@media only screen and ( max-width:1536px )
+{
+    
+
+}
+
+/*
+    1792px <-> 2048px
+*/
+@media only screen and ( max-width:1792px )
+{
+    
+
+}
+
+/*
+    2049px <- x
+*/
+@media only screen and ( max-width:2048px )
+{
+    
+
+}
