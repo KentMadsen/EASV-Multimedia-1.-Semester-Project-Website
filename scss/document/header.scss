@@ -1,9 +1,9 @@
 header 
 {
     @extend %no-base;
+    @extend %default-uppercase;
 
     background-color: white;
-    text-transform: uppercase;
 
     font-family: $header_primary_font;
 
@@ -72,9 +72,9 @@ header nav ul a li
 {
     @extend %extend-element-fully;
     
-    position: absolute;
+    position : absolute;
 
-    top: -20px;
+    top : -20px;
 }
 
 #header-navigation-color
