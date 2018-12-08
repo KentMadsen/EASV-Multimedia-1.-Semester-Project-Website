@@ -122,17 +122,14 @@ footer
 .footer-social-links a 
 {
     @extend %no-paddings;
+    @extend %resting;
 
-    color : $link-rest-color;
     font-size : 48px;
-
-    transition : $action-transition;
 }
 
 .footer-social-links a:hover
 {
-    color : $link-active-color;
-    transition : $action-transition;
+    @extend %activate;
 }
 
 .footer-base
