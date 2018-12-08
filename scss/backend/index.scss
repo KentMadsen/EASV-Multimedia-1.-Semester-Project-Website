@@ -1,14 +1,14 @@
 .space-container
 {
-    width  : 100%;
+    @extend %extend-width-fully;
+    
     height : 725px;
 }
 
 
 .image-cover-container
 {
-    width  : 100%;
-    height : 100%;
+    @extend %extend-element-fully;
     
     position : relative;
     
@@ -17,12 +17,13 @@
 
 .image-cover-container img
 {
+    @extend %extend-width-fully;
+    
     position : absolute;
     top      : -60px;
     
     z-index : -1;
 
-    width  : 100%;
     height : auto;
 }
 
@@ -62,7 +63,8 @@ main section
 
 .area img
 {
-    width : 100%;
+    @extend %extend-width-fully;
+    
 }
 
 .conference
@@ -91,26 +93,25 @@ main section
     font-weight: bold;
 }
 
-
 .news-container
 {
+    @extend %no-margin-or-padding;
+    @extend %extend-width-fully;
+    
     display : grid;
 
     grid-gap              : 16px;
     grid-template-columns : 1fr 1fr;
 
-    width   : 100%;
     height  : 600px;
-
-    @extend %no-margin-or-padding;
 }
 
 .news-container p
 {
+    @extend %extend-width-fully;
+
     color       : white;
     position    : absolute;
-
-    width   : 100%;
 
     text-align  : center;
     bottom      : 12px;
@@ -118,8 +119,7 @@ main section
 
 .news-full-card
 {
-    width   : 100%;
-    height  : 100%;
+    @extend %extend-element-fully;
 
     box-shadow  : 4px 4px
                   8px
@@ -133,6 +133,8 @@ main section
 
 .news-half-card
 {
+    @extend %extend-element-fully;
+
     position            : relative;
 
     background-repeat   : no-repeat;
@@ -142,9 +144,6 @@ main section
                 8px
                 rgba( $color : #000000,
                       $alpha : 0.25 );
-
-    width  : 100%;
-    height : 100%;
 }
 
 .section-container-1
@@ -167,5 +166,6 @@ main section
 
     grid-template-areas : "half"
                           "half";
+                          
     grid-gap : 16px;
 }
