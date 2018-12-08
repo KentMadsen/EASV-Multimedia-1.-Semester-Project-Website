@@ -91,11 +91,11 @@ header nav ul a li
 header nav ul a 
 {
    @extend %action-button;
+   @extend %none-list-style-type;
    
    color: $link-rest-color;
    text-decoration: none;
     
-   list-style-type: none;
 
    margin-left: 18px;
    margin-right: 18px;

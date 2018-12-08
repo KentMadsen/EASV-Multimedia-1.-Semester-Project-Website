@@ -51,5 +51,6 @@ a:hover h4
     color            : white;
     background-color : #D63031;
 
-    border : 2px solid rgba($color: #D63031, $alpha: 0.0);
+    border : 2px solid rgba( $color: #D63031,
+                             $alpha: 0.0 );
 }

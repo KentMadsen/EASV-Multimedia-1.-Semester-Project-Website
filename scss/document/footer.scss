@@ -61,7 +61,7 @@ footer
 
 .sponsored-by ol a li
 {
-    list-style-type : none;
+    @extend %none-list-style-type;
     display         : block;
 }
 
@@ -112,7 +112,7 @@ footer
 
 .footer-social-links
 {
-    list-style-type : none;
+    @extend %none-list-style-type;
 
     display : flex;
     
@@ -148,8 +148,8 @@ footer
     padding-bottom  : 8px;
 
     background-image : linear-gradient( to bottom,
-                                      #fdfbfb,
-                                      #ebedee );
+                                       #fdfbfb,
+                                       #ebedee );
 }
 
 .footer-base p
@@ -171,8 +171,7 @@ footer
 .footer-base ol li 
 {
     display : inline;
-    list-style-type : none;
-    
+    @extend %none-list-style-type;
 }
 
 .footer-base ol a 
@@ -189,13 +188,14 @@ footer
 .footer-base ol a:hover
 {
     color : $link-active-color;
+
     transition : $action-transition;
 }
 
 .footer-base ol a li
 {
     display : inline;
-    list-style-type : none;    
+    @extend %none-list-style-type;
 }
 
 .footer-social-links a li
@@ -230,7 +230,7 @@ footer
     
     display : block;
 
-    list-style-type : none;
+    @extend %none-list-style-type;
 }
 
 
