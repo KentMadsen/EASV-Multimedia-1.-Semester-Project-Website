@@ -6,14 +6,16 @@
 #page_front_image
 {
     @extend %extend-element-fully;
-    top      : $document-page-gap-offset;
-    position : absolute;
 
-    background-size : cover;
+    top      : $document-page-gap-offset;
+    position : relative;
+
+    background-size     : cover;
+    background-position : center;
+
 }
 
-
-/* Depended on screen size */
+// Depended on screen size 
 @media only screen and ( min-width:$tier-1 )
 {
     #page_front_image
@@ -49,10 +51,10 @@
 }
 
 /* Anything above normal size */
-@media only screen and ( min-width:2049px )
-{
-    #page_front_image
+//@media only screen and ( min-width:2049px )
+//{
+    #page_front_image_frame
     {
         background-image : url('../images/covers/front/original/front.jpg');
     }
-}
+//}
