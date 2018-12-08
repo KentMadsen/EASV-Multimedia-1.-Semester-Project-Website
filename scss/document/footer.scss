@@ -41,7 +41,6 @@ footer
     @extend %no-margin-or-padding;
 
     display : flex;
-
     justify-content : space-around;
 }
 
@@ -93,14 +92,12 @@ footer
 .contact-info p 
 {
     @extend %no-margins;
+
     text-align : center;
 }
 
 .contact-info p a 
 {
-    color : $link-rest-color;
-    
-    transition : $action-transition;
     text-decoration : none;
 }
 

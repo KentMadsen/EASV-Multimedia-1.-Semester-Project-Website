@@ -90,21 +90,20 @@ header nav ul a li
 */
 header nav ul a 
 {
-   @extend %action-button;
    @extend %none-list-style-type;
-   
-   color: $link-rest-color;
+
+   @extend %resting;
+
    text-decoration: none;
     
 
-   margin-left: 18px;
-   margin-right: 18px;
+   margin-left  : 18px;
+   margin-right : 18px;
 
-   font-family: 'verdana';
+   font-family : 'verdana';
 }
 
 header nav ul a:hover
 {
-   @extend %action-button;
-   color: $link-active-color;
+    @extend %activate;
 }

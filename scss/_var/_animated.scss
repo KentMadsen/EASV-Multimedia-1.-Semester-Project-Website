@@ -1,4 +1,13 @@
-%action-button
+%activate
 {
-    transition: $action-transition;
+    color : $link-active-color;
+    
+    transition : $action-transition;
+}
+
+%resting
+{
+    color : $link-rest-color;
+
+    transition : $action-transition;
 }
