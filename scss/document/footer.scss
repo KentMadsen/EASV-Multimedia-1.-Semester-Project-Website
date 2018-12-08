@@ -169,9 +169,10 @@ footer
 
 .footer-base ol a 
 {
-    @extend %resting;
     @extend %default-link;
+    color: black;
     
+    transition : $action-transition;
     font-size : 12px;
 }
 
