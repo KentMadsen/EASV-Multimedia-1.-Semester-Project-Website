@@ -1,16 +1,11 @@
-%no-margin
-{
-    margin: 0px;
-}
-
 header 
 {
     @extend %no-base;
+    @extend %default-uppercase;
 
-    background-color: white;
-    text-transform: uppercase;
+    background-color : white;
 
-    font-family: $header_primary_font;
+    font-family : $header_primary_font;
 
     grid-area : auto;
     display   : grid;
@@ -47,27 +42,27 @@ header nav
 */
 header nav ul 
 {
-    @extend %no-margin;
+    @extend %no-margins;
 
-    height: 36px;
+    height : 36px;
 
-    padding: 0px;
-    margin-top: 8px;
+    padding    : 0px;
+    margin-top : 8px;
 
-    display: flex;
+    display : flex;
     
-    justify-content: space-around;
+    justify-content : space-around;
 }
 
 header nav ul a li 
 {
-    display: block;
+    display : block;
 
 }
 
 #header-logo
 {
-    position: relative;
+    position : relative;
 
     width  : 75px;
     height : 75px;
@@ -77,17 +72,17 @@ header nav ul a li
 {
     @extend %extend-element-fully;
     
-    position: absolute;
+    position : absolute;
 
-    top: -20px;
+    top : -20px;
 }
 
 #header-navigation-color
 {
-    background-color: #090828;
-    color: #FFFFFF;
+    background-color : #090828;
+    color            : #FFFFFF;
 
-    height: 36px;
+    height : 36px;
 }
 
 /*
@@ -95,21 +90,17 @@ header nav ul a li
 */
 header nav ul a 
 {
-   @extend %action-button;
-   
-   color: $link-rest-color;
-   text-decoration: none;
-    
-   list-style-type: none;
+   @extend %none-list-style-type;
+   @extend %resting;
+   @extend %default-link;
 
-   margin-left: 18px;
-   margin-right: 18px;
+   margin-left  : 18px;
+   margin-right : 18px;
 
-   font-family: 'verdana';
+   font-family : 'verdana';
 }
 
 header nav ul a:hover
 {
-   @extend %action-button;
-   color: $link-active-color;
+    @extend %activate;
 }
