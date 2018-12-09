@@ -1,2 +1,19 @@
+# Development Files
+#    CSS Files
 *.map
 *.css
+
+#    Images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+#   Compressed Files
+*.zip
+*.tar
+*.gz
+
+#   Data
+*.xml
+*.json
