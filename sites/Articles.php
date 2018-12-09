@@ -13,6 +13,14 @@
             include './generics/Fonts.html';
         ?>
 
+        <?php
+            include './generics/Libraries.html';
+        ?>
+
+        <?php
+            include './generics/Style.html';
+        ?>
+
         <title>
             Space Education: Articles
         </title>
