@@ -9,6 +9,10 @@
         <meta http-equiv="X-UA-Compatible"
               content="ie=edge">
 
+        <?php
+            include './generics/Fonts.html';
+        ?>
+
         <title>
             Space Education: Account
         </title>
