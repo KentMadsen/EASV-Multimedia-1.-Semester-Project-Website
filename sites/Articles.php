@@ -9,6 +9,13 @@
         <meta http-equiv="X-UA-Compatible"
               content="ie=edge">
 
+        <?php
+            include './generics/Fonts.html';
+            include './generics/Content.html';
+            include './generics/Libraries.html';
+            include './generics/Style.html';
+        ?>
+
         <title>
             Space Education: Articles
         </title>
