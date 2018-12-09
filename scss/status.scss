@@ -1,19 +1,97 @@
+%no-select
+{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */    
+}
+
+//
+body
+{
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+
+    grid-template-areas: "header_area"
+                         "main_area"
+                         "footer_area";
+
+    background-color: #ecf0f1;
+
+    grid-gap: 32px;
+
+    padding: 0px;
+    margin: 0px;
+
+    width: 100%;
+    height: 100%;
+}
+
+//
+header
+{
+    grid-area: header_area;
+    margin: 0px;
+    
+    width: 100%;
+    height: 100%;
+
+}
+
+//
+main
+{
+    grid-area: main_area;
+    margin: 0px;
+
+    
+    width: 100%;
+    height: 100%;
+}
+
+//
+footer
+{
+    grid-area: footer_area;
+    margin:0px;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.italic
+{
+    font-style:italic;
+}
+
 .error-message-redirect
 {
-    border: 1px 
-            solid 
-            black;
+    @extend %no-select;
+    position: relative;
 
     width: 50%;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
 
     margin-left  : auto;
     margin-right : auto;
+    
+    border-radius: 36px;
+    
 
+    background-image: linear-gradient( to bottom,
+                                        #fdfbfb,
+                                        #ebedee );
+
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .error-message-redirect h1
 {
     font-family : 'open sans';
+    font-size: 24px;
     margin      : 0px;
     
 }
@@ -21,13 +99,80 @@
 .error-message-redirect a
 {
     font-family : 'open sans';
-    margin      : 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.15);
     
+    transition: 450ms;
+}
+
+.error-message-redirect a:hover
+{
+    color: orange;
+    transition: 250ms;
+
+}
+
+
+.error-message-redirect a p
+{
+    text-align: center;
 }
 
 .error-message-redirect p
 {
     font-family: 'open sans';
     margin:0px;
+
+}
+
+.status-type-title
+{
+    text-align: center;
+}
+
+.status-type-message
+{
+    text-align: center;
+}
+
+.status-type-spoof
+{
+    text-align: right;
+
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+
+    font-weight: bold;
+}
+
+
+.right-quote
+{
+    position: absolute;
+    right: 20px;
+    bottom: 46px;
+}
+
+.right-quote i 
+{
+    font-size: 48px;
+    
+    color: rgba(0, 0, 0, 0.15);
+
+}
+
+.left-quote
+{
+    position: absolute;
+    left: 20px;
+}
+
+.left-quote i 
+{
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.15);
 
 }
