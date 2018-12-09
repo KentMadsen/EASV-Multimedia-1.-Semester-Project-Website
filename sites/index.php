@@ -11,13 +11,8 @@
 
         <?php
             include './generics/Fonts.html';
-        ?>
-
-        <?php
+            include './generics/Content.html';
             include './generics/Libraries.html';
-        ?>
-
-        <?php
             include './generics/Style.html';
         ?>
 

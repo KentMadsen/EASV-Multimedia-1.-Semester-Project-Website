@@ -8,16 +8,11 @@
 
         <meta http-equiv="X-UA-Compatible"
               content="ie=edge">
-
+              
         <?php
+            include './generics/Content.html';
             include './generics/Fonts.html';
-        ?>
-
-        <?php
             include './generics/Libraries.html';
-        ?>
-
-        <?php
             include './generics/Style.html';
         ?>
 
