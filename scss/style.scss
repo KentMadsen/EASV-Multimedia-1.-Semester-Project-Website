@@ -273,6 +273,11 @@ footer
 // Rules
 @media only screen and (max-width: 768px) 
 {
+    header 
+    {
+        display: none;
+    }
+
     /* For mobile phones: */
     header ul a
     {
