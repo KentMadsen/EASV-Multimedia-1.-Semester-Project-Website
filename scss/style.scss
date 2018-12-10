@@ -109,6 +109,35 @@ footer
 
 }
 
+.footer-misc
+{
+    background-color: white;
+    color: black;
+}
+
+.footer-misc p
+{
+    margin:0px;
+    padding: 0px;
+}
+
+.footer-misc ul 
+{
+    display: flex;
+}
+
+.footer-misc ul a
+{
+     color: black;
+     text-decoration: none;
+    
+}
+
+.footer-misc ul a li
+{ 
+    display: block;
+}
+
 .selected
 {
     color  : #D63031 !important;
