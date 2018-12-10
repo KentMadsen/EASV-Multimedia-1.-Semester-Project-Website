@@ -24,8 +24,9 @@ body
 
 header 
 {
-    height: 75px;
-
+    background-image: linear-gradient( to bottom,
+                                     #fdfbfb,
+                                     #ebedee );
 }
 
 header ul
