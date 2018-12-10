@@ -1,13 +1,15 @@
+$action-transition : 0.75s;
+
 %activate
 {
-    transition: 2s;
+    transition: $action-transition;
     color: #D63031 !important;
 
 }
 
 %rest
 {
-    transition: 2s;
+    transition: $action-transition;
     text-decoration: none;
     color:black;
 }
