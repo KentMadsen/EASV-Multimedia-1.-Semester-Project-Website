@@ -145,21 +145,15 @@ footer
 
 .footer-misc ul 
 {
-    display: flex;
-    
+
     padding:0px;
     margin: 0px;
-    
     display : flex;
-
     flex-wrap : wrap;
-
     list-style : none;
-
     justify-content: center;
-
-
     text-transform: uppercase;
+    font-size: 0.875rem;
 }
 
 .footer-misc ul a
