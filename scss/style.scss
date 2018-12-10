@@ -1,2 +1,27 @@
 // 
 @import './containers.scss';
+
+body 
+{
+    display: grid;
+
+    grid-template-rows   : auto;
+    grid-template-columns: auto auto auto;
+    
+    grid-gap: 16px;
+}
+
+header 
+{
+
+}
+
+main 
+{
+
+}
+
+footer
+{
+
+}
