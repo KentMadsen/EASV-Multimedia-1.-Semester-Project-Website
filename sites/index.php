@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -22,15 +23,13 @@
     </head>
     
     <body>
-        <?php
-            include './generics/Header.html';
-        ?>
+        <?php include './generics/Header.html'; ?>
         
         <main>
+        
+
         </main>
 
-        <?php
-            include './generics/Footer.html';
-        ?>
+        <?php include './generics/Footer.html'; ?>
     </body>
 </html>
