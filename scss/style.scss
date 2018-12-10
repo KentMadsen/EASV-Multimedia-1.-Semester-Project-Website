@@ -192,12 +192,12 @@ footer
     color:white;
 }
 
-.mail:hover 
+.mail:hover
 {
     color: #D63031;
 }
 
-.footer-contact p 
+.footer-contact p
 {
     margin:0px;
     padding:0px;
@@ -205,7 +205,7 @@ footer
     text-align: center;
 }
 
-.footer-social 
+.footer-social
 {
     margin-top: 16px;
     margin-bottom: 16px;
@@ -220,19 +220,19 @@ footer
     justify-content: space-around;
 }
 
-.footer-social ul a 
+.footer-social ul a
 {
     color: white;
 }
 
-.footer-social ul a li 
+.footer-social ul a li
 {
     display: block;
     text-decoration: none;
     list-style-type: none;
 }
 
-.footer-social ul a li i 
+.footer-social ul a li i
 {
     font-size: 32px;
 }
@@ -258,21 +258,25 @@ footer
 .facebook:hover
 {
     color:#3b5998;
+    transition: $action-transition;
 }
 
 .instagram:hover
 {
     color:#D63031;
+    transition: $action-transition;
 }
 
 .twitter:hover
 {
     color: #00aced;
+    transition: $action-transition;
 }
 
 .youtube:hover
 {
     color:#cc181e;
+    transition: $action-transition;
 }
 
 
