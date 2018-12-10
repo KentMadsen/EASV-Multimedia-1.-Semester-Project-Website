@@ -13,3 +13,28 @@ $action-transition : 0.75s;
     text-decoration: none;
     color:white;
 }
+
+//
+.facebook:hover
+{
+    color:#3b5998;
+    transition: $action-transition;
+}
+
+.instagram:hover
+{
+    color:#D63031;
+    transition: $action-transition;
+}
+
+.twitter:hover
+{
+    color: #00aced;
+    transition: $action-transition;
+}
+
+.youtube:hover
+{
+    color:#cc181e;
+    transition: $action-transition;
+}
