@@ -67,7 +67,10 @@ background-image: linear-gradient( to bottom,
 
 .cooperation_with ul 
 {
-    
+    display: grid;
+    grid-gap: 8px;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
     padding:0px;
     margin:0px;
 
@@ -96,9 +99,9 @@ background-image: linear-gradient( to bottom,
 
 .horizontal-center
 {
-    
+    grid-area: auto;
     height: 100%;
-    width: 15%;
+    width: 100%;
 }
 
 .cooperation_area p
