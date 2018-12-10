@@ -6,7 +6,7 @@
 
 $header-font: 'Open Sans';
 
-body 
+body
 {
     margin  : 0px;
     padding : 0px;
@@ -22,7 +22,7 @@ body
     height: 100%;
 }
 
-header 
+header
 {
     z-index: 0;
     position: relative;
@@ -71,6 +71,9 @@ header ul a
 
     margin-top: 8px;
     margin-bottom: 8px;
+    
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 header ul a:hover
@@ -85,7 +88,7 @@ header ul a li
 
 }
 
-main 
+main
 {
     
     
@@ -101,11 +104,17 @@ footer
 
 .selected
 {
-    color: #D63031 !important;
-    border:2px solid #D63031;
+    color  : #D63031 !important;
+    border : 2px solid #D63031;
 
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left  : 8px;
+    padding-right : 8px;
 
-    border-radius: 4px;
+    border-radius : 4px;
+}
+
+.selected:hover
+{
+    border-radius: 0px;
+    
 }
