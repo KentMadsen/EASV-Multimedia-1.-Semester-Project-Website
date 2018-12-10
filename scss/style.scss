@@ -104,7 +104,11 @@ main
 
 footer
 {
+    width: 100%;
     
+    margin: 0px;
+    padding: 0px;
+
     
     background-color: #090828;
 
@@ -113,6 +117,10 @@ footer
 .footer-misc
 {
     @extend %not-selecteble;
+
+    margin: 0px;
+    padding: 0px;
+
 
     font-family: $footer-font;
 
