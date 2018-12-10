@@ -31,7 +31,9 @@
 
         <?php include './generics/Footer.html'; ?>
 
-        <script src="./script/scripts.js" onload="select_page('header_home_link')">
+        <!-- -->
+        <script src="./script/scripts.js" 
+                onload="select_page('header_home_link')">
         </script>
     </body>
 </html>
