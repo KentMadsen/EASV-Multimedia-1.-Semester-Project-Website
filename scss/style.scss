@@ -287,7 +287,9 @@ footer
 
     .selected
     {
-        border: 1px solid #D63031;
+        border: 0px solid #D63031;
+        border-bottom: 1px solid;
+        
         border-radius: 0px;
     }
 
