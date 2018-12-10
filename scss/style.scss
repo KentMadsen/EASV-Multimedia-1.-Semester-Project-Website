@@ -56,7 +56,8 @@ header ul
     display: flex;
     list-style: none;
     
-    flex-direction: row;
+    flex-wrap: wrap;
+    
     justify-content: space-around;
 
     text-transform: uppercase;
