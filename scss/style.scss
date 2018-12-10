@@ -190,12 +190,14 @@ footer
 
 .mail
 {
+    transition: $action-transition;
     text-decoration: none;
     color:white;
 }
 
 .mail:hover
 {
+    transition: $action-transition;
     color: #D63031;
 }
 
