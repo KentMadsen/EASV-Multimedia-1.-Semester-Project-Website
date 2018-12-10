@@ -12,7 +12,192 @@
 {
     margin: 0px;
     padding:0px;
-    
+
     grid-area: auto;
+}
+
+.cover-container
+{
+    background-color: gray;
+    
+    width: 100%;
+    height: 450px;
 
 }
+
+/* 
+Overvej noget lignende ?
+background-image: linear-gradient( to bottom,
+                                       #fdfbfb,
+                                       #ebedee );
+*/
+
+.container-short-description
+{
+    width: 300px;
+
+
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.container-short-description p 
+{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.area 
+{
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.cooperation_with
+{
+    margin: 0px;
+    
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cooperation_with ul 
+{
+    display: grid;
+
+    grid-gap: 32px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px;
+
+    width: 100%;
+
+    padding:0px;
+    margin:0px;
+    
+}
+
+.cooperation_with ul a 
+{
+    color: black;
+    text-decoration: none;
+
+    margin: 0px;
+    padding:0px;
+
+    height: auto;
+    width: 100%;
+    
+    opacity: 0.2;
+}
+
+.cooperation_with ul a:hover 
+{
+    opacity: 1.0;
+}
+
+.horizontal-center
+{
+    grid-area: auto;
+    position: relative;
+
+    height: 100%;
+    width: 75%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.cooperation_area p
+{
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.about_us_area
+{
+    font-family: 'Open Sans';
+}
+
+.title
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.about_us_area p 
+{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 0px;
+}
+
+.cooperation_with ul a li 
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cooperation_with ul a li img 
+{
+    width: 100%;
+    height: auto;
+}
+
+.container-short-description i 
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+    color: #D63031;
+
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px)
+{
+    /* For mobile phones: */
+    .container-area-3
+    {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .cooperation_with ul 
+    {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+  }
+
+  @media only screen and (min-width: 769px)
+  {
+    .cooperation_with ul a 
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+  }

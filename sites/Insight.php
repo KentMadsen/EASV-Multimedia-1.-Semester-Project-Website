@@ -18,18 +18,24 @@
         ?>
 
         <title>
-            Space Education: Home
+            Space Education: Insight
         </title>
     </head>
     
     <body>
-        <?php include './generics/Header.html'; ?>
-        
+        <?php
+            include './generics/Header.html';
+        ?>
         <main>
-        
-
+            <?php
+                include './content/Insight.html';
+            ?>
         </main>
-
-        <?php include './generics/Footer.html'; ?>
+        <?php
+            include './generics/Footer.html';
+        ?>
+        <script src="./script/scripts.js"
+                onload="select_page('header_insight_link');">
+        </script>
     </body>
 </html>
