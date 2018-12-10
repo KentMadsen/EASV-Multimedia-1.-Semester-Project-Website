@@ -85,6 +85,9 @@ background-image: linear-gradient( to bottom,
 
     margin: 0px;
     padding:0px;
+
+    height: auto;
+    width: 100%;
     
     position: absolute;
     top: 50%;
@@ -102,7 +105,7 @@ background-image: linear-gradient( to bottom,
 {
     grid-area: auto;
     position: relative;
-    
+
     height: 100%;
     width: 100%;
 }
