@@ -1,7 +1,10 @@
 // 
 @import './templates/containers.scss';
+
 @import './templates/generic.scss';
 @import './templates/animation.scss';
+
+$header-font: 'Open Sans';
 
 body 
 {
@@ -28,16 +31,14 @@ header
 header ul
 {
     @extend %not-selecteble;
+    @extend %no-margin-or-padding;
 
-    font-family: 'Open Sans';
+    font-family: $header-font;
     font-size: 18px;
 
     display: flex;
     list-style: none;
     
-    margin:0px;
-    padding: 0px;
-
     justify-content: space-around;
 }
 

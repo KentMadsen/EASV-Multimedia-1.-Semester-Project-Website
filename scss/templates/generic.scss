@@ -11,4 +11,10 @@
 
   /* Likely future */
   user-select: none;          
+};
+
+%no-margin-or-padding
+{
+  margin  : 0px;
+  padding : 0px;
 }
