@@ -26,8 +26,7 @@
         <?php include './generics/Header.html'; ?>
         
         <main>
-        
-
+            Test Main Area
         </main>
 
         <?php include './generics/Footer.html'; ?>
