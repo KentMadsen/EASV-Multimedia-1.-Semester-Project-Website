@@ -57,8 +57,9 @@
 
 .cooperation ul 
 {
-    
+    display: flex;
 
+    justify-content: space-around;
 }
 
 .cooperation ul a 
@@ -70,7 +71,7 @@
 .cooperation ul a li 
 {
     list-style: none;
-
+    display: block;
 }
 
 .cooperation ul a li img 
