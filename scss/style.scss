@@ -18,6 +18,8 @@ body
     grid-template-columns: auto;
     
     grid-gap:0px;
+
+    min-height: 100%;
     
 }
 
@@ -97,7 +99,6 @@ header ul a li
 //
 main
 {
-    height: 100%;
     
 
 }
