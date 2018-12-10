@@ -226,6 +226,11 @@ footer
     transition: $action-transition !important;
 }
 
+.footer-social ul a:hover 
+{
+    transition: $action-transition !important;
+}
+
 .footer-social ul a li
 {
     display: block;
