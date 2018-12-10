@@ -84,6 +84,7 @@
 
 .horizontal-center
 {
+    display: block;
     position: relative;
     height: 100%;
 }
@@ -91,7 +92,6 @@
 .cooperation ul a li 
 {
     list-style: none;
-    display: block;
     margin: 0px;
     padding: 0px;
 }
