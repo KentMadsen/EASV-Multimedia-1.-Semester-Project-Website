@@ -94,10 +94,10 @@ background-image: linear-gradient( to bottom,
     height: auto;
     width: 100%;
     
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    //position: absolute;
+    //top: 50%;
+    //left: 50%;
+    //transform: translate(-50%, -50%);
     opacity: 0.2;
 }
 
@@ -192,9 +192,5 @@ background-image: linear-gradient( to bottom,
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .cooperation_with ul a 
-    {
-        position: block;
-    }
 
   }
