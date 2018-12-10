@@ -22,14 +22,14 @@
     </head>
 
     <body>
-        <?php 
+        <?php
             include './generics/Header.html';
         ?>
         
         <main>
         </main>
 
-        <?php 
+        <?php
             include './generics/Footer.html';
         ?>
 
