@@ -5,6 +5,7 @@
 @import './templates/animation.scss';
 
 $header-font: 'Open Sans';
+$footer-font: 'Open Sans';
 
 body
 {
@@ -112,7 +113,9 @@ footer
 .footer-misc
 {
     @extend %not-selecteble;
-    
+
+    font-family: $footer-font;
+
     background-color: white;
     color: black;
 }
