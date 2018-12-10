@@ -24,21 +24,25 @@ body
 
 header
 {
-    z-index: 0;
-    position: relative;
+    z-index  : 0;
 
-    background-color: #090828;
-    box-shadow: 0px 0px 16px black;
+    position : relative;
+
+    background-color : #090828;
+    box-shadow : 0px 0px 
+                 16px 
+                 rgba(0, 0, 0, 0.2);
 }
 
 .header-background
 {
-    z-index: 0;
-    position: absolute;
+    z-index  : 0;
+
+    position : absolute;
 
     background-image: linear-gradient( to bottom,
-                                     #fdfbfb,
-                                     #ebedee );
+                                      #fdfbfb,
+                                      #ebedee );
                                      
 
     width: 100%;
@@ -52,15 +56,18 @@ header ul
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
 
-    font-family: $header-font;
-    font-size: 18px;
+    font-family : $header-font;
+    font-size   : 18px;
 
-    display: flex;
-    flex-wrap: wrap;
+    display : flex;
 
-    list-style: none;
+    flex-wrap : wrap;
+
+    list-style : none;
+
     justify-content: space-around;
-    text-transform: uppercase;
+
+    text-transform : uppercase;
 }
 
 header ul a
