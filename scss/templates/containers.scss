@@ -94,10 +94,6 @@ background-image: linear-gradient( to bottom,
     height: auto;
     width: 100%;
     
-    //position: absolute;
-    //top: 50%;
-    //left: 50%;
-    //transform: translate(-50%, -50%);
     opacity: 0.2;
 }
 
@@ -194,3 +190,22 @@ background-image: linear-gradient( to bottom,
 
 
   }
+
+  /* Rules only for PC 
+  */
+    //position: absolute;
+    //top: 50%;
+    //left: 50%;
+    //transform: translate(-50%, -50%);
+@media only screen and (min-width: 769px)
+{
+    .horizontal-center
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+ 
+}
