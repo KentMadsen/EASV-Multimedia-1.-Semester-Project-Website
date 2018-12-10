@@ -197,6 +197,24 @@ footer
     text-align: center;
 }
 
+.footer-social ul
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-social ul a 
+{
+    color: white;
+}
+
+.footer-social ul a li 
+{
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
 .selected
 {
     color  : #D63031 !important;
