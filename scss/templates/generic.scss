@@ -1,0 +1,32 @@
+%not-selecteble
+{
+  /* Chrome all / Safari all */
+  -webkit-user-select: none;  
+  
+  /* Firefox all */
+  -moz-user-select: none;
+  
+  /* IE 10+ */
+  -ms-user-select: none;
+
+  /* Likely future */
+  user-select: none;          
+};
+
+%no-margin-or-padding
+{
+  margin  : 0px;
+  padding : 0px;
+}
+
+%extend-width
+{
+  width: 100%;
+}
+
+%extend-fully
+{
+  @extend %extend-width;
+  
+  height: 100%;
+}
