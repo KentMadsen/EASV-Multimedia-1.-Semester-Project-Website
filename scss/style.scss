@@ -4,10 +4,10 @@
 
 body 
 {
-    margin:0px;
-    padding:0px;
+    margin  : 0px;
+    padding : 0px;
 
-    display: grid;
+    display : grid;
 
     grid-template-rows   : auto auto auto;
     grid-template-columns: auto;
@@ -27,6 +27,10 @@ header
 header ul
 {
     @extend %not-selecteble;
+
+    font-family: 'Open Sans';
+    font-size: 18px;
+
     display: flex;
     list-style: none;
     
@@ -64,5 +68,5 @@ footer
 
 .selected
 {
-    color: red !important;
+    color: #D63031 !important;
 }
