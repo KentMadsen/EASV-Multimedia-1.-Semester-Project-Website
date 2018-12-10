@@ -52,12 +52,18 @@
 
 .cooperation
 {
+    margin: 0px;
+    height: 0px;
 
+    height: 200px;
+    width: 100%;
 }
 
 .cooperation ul 
 {
     display: flex;
+    padding:0px;
+    margin:0px;
 
     justify-content: space-around;
 }
