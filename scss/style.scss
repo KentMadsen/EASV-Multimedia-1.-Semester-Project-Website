@@ -143,11 +143,19 @@ footer
 .footer-misc ul 
 {
     display: flex;
-    justify-content: center;
     
     padding:0px;
     margin: 0px;
     
+    display : flex;
+
+    flex-wrap : wrap;
+
+    list-style : none;
+
+    justify-content: space-around;
+
+
     text-transform: uppercase;
 }
 
@@ -287,6 +295,7 @@ footer
     .footer-misc ul a
     {
         width: 100%;
+        text-align: center;
     }
 
 
