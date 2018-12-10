@@ -187,25 +187,16 @@ background-image: linear-gradient( to bottom,
         grid-template-columns: auto;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
-
-
   }
 
-  /* Rules only for PC 
-  */
-    //position: absolute;
-    //top: 50%;
-    //left: 50%;
-    //transform: translate(-50%, -50%);
-@media only screen and (min-width: 769px)
-{
-    .horizontal-center
+  @media only screen and (min-width: 769px)
+  {
+    .cooperation_with ul a 
     {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-
     }
- 
-}
+
+  }
