@@ -34,8 +34,8 @@
         ?>
 
         
-        <script src="./script/scripts.js" 
-                onload="select_page('header_articles_link')">
+        <script src="./script/scripts.js"
+                onload="select_page('header_articles_link');">
         </script>
     </body>
 </html>

@@ -24,7 +24,7 @@
     
     <body>
         <?php
-            include './generics/Header.html'; 
+            include './generics/Header.html';
         ?>
         
         <main>
@@ -32,11 +32,11 @@
         </main>
 
         <?php
-            include './generics/Footer.html'; 
+            include './generics/Footer.html';
         ?>
 
         <!-- -->
-        <script src="./script/scripts.js" 
+        <script src="./script/scripts.js"
                 onload="select_page('header_home_link')">
         </script>
     </body>
