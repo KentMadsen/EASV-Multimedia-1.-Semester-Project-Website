@@ -165,10 +165,12 @@ footer
      text-decoration: none;
      margin-left: 20px;
      margin-right: 20px;
+     transition: $action-transition;
 }
 
 .footer-misc ul a:hover
 {
+    transition: $action-transition;
      color: #D63031;
 }
 
