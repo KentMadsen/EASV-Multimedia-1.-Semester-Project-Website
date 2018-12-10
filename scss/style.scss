@@ -111,6 +111,8 @@ footer
 
 .footer-misc
 {
+    @extend %not-selecteble;
+    
     background-color: white;
     color: black;
 }
