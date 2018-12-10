@@ -197,11 +197,17 @@ footer
     text-align: center;
 }
 
+.footer-social 
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 .footer-social ul
 {
     padding: 0px;
     margin: 0px;
-    
+
     display: flex;
     justify-content: space-around;
 }
