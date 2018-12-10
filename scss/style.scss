@@ -47,7 +47,6 @@ header
 
 header ul
 {
-    z-index: 2;
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
 
@@ -65,6 +64,8 @@ header ul
 header ul a
 {
     @extend %rest;
+    
+    z-index: 2;
 
     margin-top: 8px;
     margin-bottom: 8px;
