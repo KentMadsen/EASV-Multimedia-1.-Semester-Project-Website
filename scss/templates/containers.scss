@@ -186,7 +186,7 @@ background-image: linear-gradient( to bottom,
     .cooperation_with ul 
     {
         grid-template-columns: 80%;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto;
     }
   }
 
