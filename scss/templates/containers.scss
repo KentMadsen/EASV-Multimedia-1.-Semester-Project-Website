@@ -14,10 +14,14 @@
     padding:0px;
 
     grid-area: auto;
+}
+
+.cover-container
+{
 
 }
 
-@media only screen and (max-width: 768px) 
+@media only screen and (max-width: 768px)
 {
     /* For mobile phones: */
     .container-area-3
