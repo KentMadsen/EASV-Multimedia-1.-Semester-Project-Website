@@ -18,3 +18,15 @@
   margin  : 0px;
   padding : 0px;
 }
+
+%extend-width
+{
+  width: 100%;
+}
+
+%extend-fully
+{
+  @extend %extend-width;
+  
+  height: 100%;
+}
