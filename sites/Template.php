@@ -18,18 +18,16 @@
         ?>
 
         <title>
-            Space Education: Home
+            Title
         </title>
     </head>
     
     <body>
         <?php include './generics/Header.html'; ?>
-        
         <main>
         
 
         </main>
-
         <?php include './generics/Footer.html'; ?>
     </body>
 </html>
