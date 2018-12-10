@@ -4,13 +4,12 @@
 *.css
 
 #    Images
-*.jpg
-*.jpeg
-*.png
-*.bmp
+# *.jpg
+# *.jpeg
+# *.png
+# *.bmp
 
 #   Compressed Files
-*.zip
 *.tar
 *.gz
 

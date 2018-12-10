@@ -24,10 +24,9 @@
         <?php
             include './generics/Header.html';
         ?>
-        
         <main>
-        </main>
 
+        </main>
         <?php
             include './generics/Footer.html';
         ?>
