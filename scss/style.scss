@@ -242,8 +242,6 @@ footer
     display: block;
     text-decoration: none;
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
 }
 
 .footer-social ul a li i
@@ -288,6 +286,8 @@ footer
 
     .footer-misc ul a
     {
+        margin: 0px !important;
+        padding: 0px !important;
         width: 100%;
         text-align: center;
         border-bottom: 1px solid black;
