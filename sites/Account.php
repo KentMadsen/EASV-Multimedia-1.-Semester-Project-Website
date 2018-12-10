@@ -26,7 +26,9 @@
             include './generics/Header.html';
         ?>
         <main>
-            
+            <?php 
+                include './content/Account.html';
+            ?>
         </main>
         <?php
             include './generics/Footer.html';
