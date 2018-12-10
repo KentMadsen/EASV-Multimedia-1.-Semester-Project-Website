@@ -18,6 +18,8 @@ body
     grid-template-columns: auto;
     
     grid-gap:0px;
+    
+    min-height: 100%;
 }
 
 header
@@ -93,13 +95,15 @@ header ul a li
 
 }
 
+//
 main
 {
-    
+    min-height: 100%;
     
 
 }
 
+//
 footer
 {
     width: 100%;
