@@ -18,7 +18,7 @@
         ?>
 
         <title>
-            Space Education: Home
+            Space Education: Insight
         </title>
     </head>
     
