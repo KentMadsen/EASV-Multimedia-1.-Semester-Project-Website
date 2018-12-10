@@ -166,13 +166,12 @@ footer
      text-decoration: none;
      margin-left: 20px;
      margin-right: 20px;
-     transition: $action-transition;
      font-weight: bold;
 }
 
 .footer-misc ul a:hover
 {
-    transition: $action-transition;
+    
      color: #D63031;
 }
 
@@ -192,14 +191,14 @@ footer
 
 .mail
 {
-    transition: $action-transition;
+    
     text-decoration: none;
     color:white;
 }
 
 .mail:hover
 {
-    transition: $action-transition;
+    
     color: #D63031;
 }
 
@@ -231,12 +230,12 @@ footer
     margin:0px;
     padding: 0px;
     color: white;
-    transition: $action-transition;
+    
 }
 
 .footer-social ul a:hover 
 {
-    transition: $action-transition;
+    
 }
 
 .footer-social ul a li
