@@ -25,6 +25,7 @@ header
 
 header ul
 {
+    @extend %not-selecteble;
     display: flex;
     list-style: none;
     
