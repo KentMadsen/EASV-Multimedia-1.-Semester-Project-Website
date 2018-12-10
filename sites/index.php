@@ -26,15 +26,12 @@
         <?php
             include './generics/Header.html';
         ?>
-        
         <main>
             
         </main>
-
         <?php
             include './generics/Footer.html';
         ?>
-
         <!-- -->
         <script src="./script/scripts.js"
                 onload="select_page('header_home_link')">
