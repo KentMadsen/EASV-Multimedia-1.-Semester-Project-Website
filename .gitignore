@@ -10,7 +10,6 @@
 *.bmp
 
 #   Compressed Files
-*.zip
 *.tar
 *.gz
 
