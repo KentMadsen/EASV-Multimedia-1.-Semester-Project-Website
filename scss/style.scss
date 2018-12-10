@@ -223,7 +223,7 @@ footer
 .footer-social ul a
 {
     color: white;
-    transition: $action-transition;
+    transition: $action-transition !important;
 }
 
 .footer-social ul a li
