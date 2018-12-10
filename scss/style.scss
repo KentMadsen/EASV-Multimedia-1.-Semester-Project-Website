@@ -1,2 +1,209 @@
 // 
-@import './containers.scss';
+@import './templates/containers.scss';
+
+@import './templates/generic.scss';
+@import './templates/animation.scss';
+
+$header-font: 'Open Sans';
+$footer-font: 'Open Sans';
+
+body
+{
+    @extend %extend-fully;
+    @extend %no-margin-or-padding;
+
+    display : grid;
+
+    grid-template-rows   : auto auto auto;
+    grid-template-columns: auto;
+    
+    grid-gap:0px;
+
+}
+
+header
+{
+    z-index  : 0;
+
+    position : relative;
+
+    background-color : #090828;
+
+    box-shadow : 0px 0px 
+                 16px 
+                 rgba( 0, 0, 0, 
+                         0.2 );
+}
+
+.header-background
+{
+    @extend %extend-width;
+
+    z-index  : 0;
+
+    position : absolute;
+
+    background-image: linear-gradient( to bottom,
+                                       #fdfbfb,
+                                       #ebedee );
+                                     
+
+    height: 5px;
+
+    bottom: 0px;
+}
+
+header ul
+{
+    @extend %not-selecteble;
+    @extend %no-margin-or-padding;
+
+    font-family : $header-font;
+    font-size   : 18px;
+
+    display : flex;
+
+    flex-wrap : wrap;
+
+    list-style : none;
+
+    justify-content: space-around;
+
+    text-transform : uppercase;
+}
+
+header ul a
+{
+    @extend %rest;
+    
+    z-index: 2;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+header ul a:hover
+{
+    @extend %activate;
+
+}
+
+header ul a li
+{
+    display: block;
+
+}
+
+main
+{
+    
+    
+    
+
+}
+
+footer
+{
+    width: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+
+    
+    background-color: #090828;
+
+}
+
+.footer-misc
+{
+    @extend %not-selecteble;
+
+    margin: 0px;
+    padding: 0px;
+
+
+    font-family: $footer-font;
+
+    width: 100%;
+
+    background-color: white;
+    color: black;
+}
+
+.footer-misc p
+{
+    margin:0px;
+    padding: 0px;
+
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-misc ul 
+{
+    display: flex;
+    justify-content: center;
+    
+    padding:0px;
+    margin: 0px;
+    
+    text-transform: uppercase;
+}
+
+.footer-misc ul a
+{
+     color: black;
+     text-decoration: none;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+
+.footer-misc ul a:hover
+{
+     color: #D63031;
+}
+
+.footer-misc ul a li
+{ 
+    display: block;
+}
+
+.footer-contact
+{
+    color: white;
+}
+
+.selected
+{
+    color  : #D63031 !important;
+    border : 2px solid #D63031;
+
+    padding-left  : 8px;
+    padding-right : 8px;
+
+    border-radius : 4px;
+}
+
+.selected:hover
+{
+    border-radius: 0px;
+    
+}
+
+@media only screen and (max-width: 768px) 
+{
+    /* For mobile phones: */
+    header ul a
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .selected
+    {
+        border: 0px solid white;
+        border-radius: 0px;
+    }
+
+  }
