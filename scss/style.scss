@@ -24,6 +24,7 @@ body
 
 header 
 {
+    z-index: 0;
     position: relative;
 
     background-image: linear-gradient( to bottom,
@@ -33,7 +34,7 @@ header
 
 .header-background
 {
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     background-color: #090828;
 
@@ -46,6 +47,7 @@ header
 
 header ul
 {
+    z-index: 2;
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
 
