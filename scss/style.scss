@@ -173,9 +173,19 @@ footer
 {
     margin-top: 16px;
     margin-bottom: 16px;
-    
+
     color: white;
     font-family:$footer-font; 
+}
+
+.mail
+{
+    color:white;
+}
+
+.mail:hover 
+{
+    color: #D63031;
 }
 
 .footer-contact p 
