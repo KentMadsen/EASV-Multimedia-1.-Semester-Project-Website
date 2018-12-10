@@ -104,7 +104,7 @@ main
 
 footer
 {
-    height: 200px;
+    
     
     background-color: #090828;
 
@@ -115,6 +115,8 @@ footer
     @extend %not-selecteble;
 
     font-family: $footer-font;
+
+    width: 100%;
 
     background-color: white;
     color: black;
