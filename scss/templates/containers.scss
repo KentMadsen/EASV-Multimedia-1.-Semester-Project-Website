@@ -186,4 +186,10 @@ background-image: linear-gradient( to bottom,
         grid-template-rows: auto auto auto;
     }
 
+    .cooperation_with ul 
+    {
+        grid-template-columns: 150px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
   }
