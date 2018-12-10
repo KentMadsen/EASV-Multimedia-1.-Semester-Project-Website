@@ -71,9 +71,6 @@ header ul a
 
     margin-top: 8px;
     margin-bottom: 8px;
-
-    margin-left: 75px;
-    margin-right: 75px;
 }
 
 header ul a:hover
@@ -118,3 +115,11 @@ footer
     border-radius: 0px;
     
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    header ul a
+    {
+      width: 100%;
+    }
+  }
