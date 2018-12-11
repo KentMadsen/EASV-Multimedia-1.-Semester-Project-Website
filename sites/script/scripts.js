@@ -30,7 +30,7 @@ function init()
 }
 
 var mobile_overlay = false;
-const id_for_mobile_overlay_nav = 'mobile_page_navigation_area';
+var id_for_mobile_overlay_nav = 'mobile_page_navigation_area';
 
 
 function switch_mobile_overlay_mode()
