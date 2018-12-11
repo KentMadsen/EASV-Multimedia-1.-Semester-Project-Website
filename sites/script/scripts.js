@@ -30,13 +30,18 @@ function overlay_click()
 {
     console.log(mobile_overlay);
 
-    if(mobile_overlay == false)
+    //
+    if( mobile_overlay == false )
     {
-        mobile_overlay = true;
+        // Turn overlay state
+        mobile_overlay = !mobile_overlay;
 
+        // Show Menu
     }
     else 
     {
-        mobile_overlay = false;
+        // Turn overlay state to it's opposite
+        mobile_overlay = !mobile_overlay;
+
     }
 }
