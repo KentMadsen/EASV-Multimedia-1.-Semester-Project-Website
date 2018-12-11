@@ -21,3 +21,8 @@ function use_overlay()
         x[i].classList.add("overlay");
     }
 }
+
+function show_overlay()
+{
+    
+}
