@@ -1,0 +1,96 @@
+header
+{
+    z-index  : 0;
+
+    position : relative;
+
+    background-color : #090828;
+
+    box-shadow : 0px 0px
+                 16px
+                 rgba( 0, 0, 0, 
+                         0.2 );
+}
+
+header ul
+{
+    @extend %not-selecteble;
+    @extend %no-margin-or-padding;
+
+    font-family : $header-font;
+    font-size   : 18px;
+
+    display : flex;
+
+    flex-wrap : wrap;
+
+    list-style : none;
+
+    justify-content: space-around;
+
+    text-transform : uppercase;
+}
+
+header ul a
+{
+    @extend %rest;
+
+    font-size: 0.875rem;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+header ul a:hover
+{
+    @extend %activate;
+
+}
+
+header ul a li
+{
+    display: block;
+
+}
+
+.selected
+{
+    color  : #D63031 !important;
+    border : 2px solid #D63031;
+
+    padding-left  : 8px;
+    padding-right : 8px;
+
+    border-radius : 4px;
+}
+
+.selected:hover
+{
+    border-radius: 0px;
+    
+}
+
+@media only screen and (max-width: 768px) 
+{
+    header 
+    {
+        //display: none;
+    }
+
+    /* For mobile phones: */
+    header ul a
+    {
+        width: 100%;
+
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+
+    .selected
+    {
+        border: 0px solid #D63031;
+        border-bottom: 1px solid;
+
+        border-radius: 0px;
+    }
+}
