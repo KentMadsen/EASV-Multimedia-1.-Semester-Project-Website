@@ -80,8 +80,10 @@ header ul a li
 {
     header 
     {
-        //display: none;
+        display: none;
+
         background-color : $document_header_color;
+        
         padding:0px;
         margin: 0px;
     }
@@ -91,6 +93,7 @@ header ul a li
     {
         width: 100%;
         margin: 0px;
+
         text-align: center;
         
         padding-top: 8px;
@@ -100,6 +103,7 @@ header ul a li
     .selected
     {
         border: 0px;
+
         color: white !important;
         background-color: #D63031;
         
