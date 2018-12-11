@@ -20,6 +20,7 @@ header
 
 header ul
 {
+    z-index: 2;
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
 
