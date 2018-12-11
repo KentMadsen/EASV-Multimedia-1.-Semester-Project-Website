@@ -186,5 +186,11 @@ header ul a:hover
 header ul a li 
 {
     display: block;
-    
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+@media only screen and (max-width: 768px) 
+{
+
 }
