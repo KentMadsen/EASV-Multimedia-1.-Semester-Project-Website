@@ -126,6 +126,7 @@ header ul a li
     
     width : 100%;
     background-color: black;
+    overflow: hidden
 }
 
 .selected_page
@@ -137,6 +138,11 @@ header ul a li
 .page_header_area
 {
     
+}
+
+.overlay
+{
+    background-color: black;
 }
 
 /* 
@@ -160,7 +166,7 @@ header ul
     justify-content : center;
 }
 
-header ul a 
+header ul a
 {
     color:white;
 
@@ -179,12 +185,12 @@ header ul a
     margin-left  : 64px;
 }
 
-header ul a:hover 
+header ul a:hover
 {
     color: #D63031 !important;
 }
 
-header ul a li 
+header ul a li
 {
     display: block;
 
@@ -197,6 +203,66 @@ header ul a li
     display: block;
 }
 
+.hide 
+{
+    display: none;
+}
+
+.menu_button
+{
+    cursor: pointer;
+
+    z-index: 4;
+    position: fixed;
+
+    top: 20px;
+    right: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    border: 2px solid #D63031;
+    background-color: white;
+
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+}
+
+/* Ide kun */
+
+.menu_button:hover 
+{
+    border: 2px solid white;
+    background-color: #D63031;
+}
+
+.menu_button:hover div i
+{
+    color: white;
+}
+
+/* */
+
+.menu_button_icon
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_button_icon i
+{
+    color: #D63031;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media only screen and (max-width: 768px) 
 {
     .page_header_area
@@ -206,7 +272,13 @@ header ul a li
 
     .mobile_page_navigation_area
     {
+        z-index: 4;
         background-color: black;
+
+        overflow: hidden;
+        position: fixed;
+
+        width: 100%;
     }
 
     .mobile_page_navigation_area ul
@@ -226,6 +298,12 @@ header ul a li
         width: 100%;
     }
 
+    .mobile_page_navigation_area ul a:hover
+    {
+        
+        color: white !important;
+    }
+
     .mobile_page_navigation_area ul a li
     {
         width: 100%;
@@ -235,13 +313,23 @@ header ul a li
 
     .selected_page
     {
-        border: 0px solid rgba(255, 255, 255, 0.0);
+        border: 0px;
         color: white !important;
         background-color: #D63031;
+        
     }
 
     .selected_page:hover 
     {
+        border:0px;
         color: white !important;
+    }
+}
+
+@media only screen and (min-width: 769px) 
+{
+    .hide 
+    {
+        display: none !important;
     }
 }
