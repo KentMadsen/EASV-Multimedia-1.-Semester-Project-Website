@@ -37,11 +37,29 @@ function overlay_click()
         mobile_overlay = !mobile_overlay;
 
         // Show Menu
+        var x = document.getElementsByClassName('mobile_page_navigation_area');
+        var i;
+
+        for(i =0; i < x.length; i++)
+        {
+            x[i].classList.add('show');
+        }
+
     }
     else 
     {
         // Turn overlay state to it's opposite
         mobile_overlay = !mobile_overlay;
+
+        // Remove
+         // Show Menu
+         var x = document.getElementsByClassName('mobile_page_navigation_area');
+         var i;
+ 
+         for(i =0; i < x.length; i++)
+         {
+             x[i].classList.remove('show');
+         }
 
     }
 }
