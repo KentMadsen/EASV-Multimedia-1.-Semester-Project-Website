@@ -20,7 +20,6 @@ header
 
 header ul
 {
-    z-index: 2;
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
 
@@ -40,7 +39,6 @@ header ul
 
 header ul a
 {
-    z-index: 3;
     @extend %rest;
 
     font-size: 0.875rem;
@@ -56,7 +54,6 @@ header ul a
 
 header ul a:hover
 {
-    z-index: 3;
     @extend %activate;
 
 }
