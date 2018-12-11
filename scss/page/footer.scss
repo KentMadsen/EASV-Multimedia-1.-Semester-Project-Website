@@ -130,21 +130,17 @@ footer
 
     color: white;
 
+    
+    display: block;
+
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .footer-social-container
 {
     width: 50%;
     
-}
-
-
-.footer-social ul div li a
-{
-    display: block;
-
-    text-decoration: none;
-    list-style-type: none;
 }
 
 .footer-social ul div li a i
