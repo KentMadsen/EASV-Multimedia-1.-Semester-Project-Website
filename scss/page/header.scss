@@ -19,7 +19,7 @@ header
 
 header ul
 {
-    @extend %not-selecteble;
+    
     @extend %no-margin-or-padding;
 
     font-family : $header-font;
@@ -41,8 +41,7 @@ header ul a
     @extend %rest;
 
     font-size: 0.875rem;
-    z-index: 1;
-
+    
     margin-top    : 8px;
     margin-bottom : 8px;
 
