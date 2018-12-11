@@ -119,7 +119,7 @@ footer
     justify-content: space-around;
 }
 
-.footer-social ul div a
+.footer-social ul div li a
 {
     @extend %no-margin-or-padding;
 
@@ -139,7 +139,7 @@ footer
 }
 
 
-.footer-social ul div a li
+.footer-social ul div li a
 {
     display: block;
 
@@ -147,7 +147,7 @@ footer
     list-style-type: none;
 }
 
-.footer-social ul div a i li
+.footer-social ul div li a i
 {
     font-size: 32px;
     text-align: center;
