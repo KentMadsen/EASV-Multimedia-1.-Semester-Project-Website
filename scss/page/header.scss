@@ -220,6 +220,17 @@ header ul a li
     border-radius: 100%;
 }
 
+.menu_button:hover 
+{
+    border: 2px solid white;
+    background-color: #D63031;
+}
+
+.menu_button:hover div i
+{
+    color: white;
+}
+
 .menu_button_icon
 {
     position: relative;
