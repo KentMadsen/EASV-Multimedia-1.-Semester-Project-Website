@@ -191,6 +191,16 @@
     }
   }
 
+  @media only screen and (max-width: 1024px)
+  {
+    .container-area-3
+    {
+        grid-auto-columns: auto auto;
+        grid-row: auto auto;
+    }
+
+  }
+
   @media only screen and (min-width: 769px)
   {
     .cooperation_with ul a 
