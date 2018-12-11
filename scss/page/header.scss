@@ -1,0 +1,247 @@
+/* Old
+header
+{
+    position : relative;
+}
+
+.overlay
+{
+    background-color : $document_header_color;
+
+    box-shadow : 0px 0px
+                 16px
+                 rgba( 0, 0, 0, 
+                         0.2 );
+
+}
+
+header ul
+{
+    
+    @extend %no-margin-or-padding;
+
+    font-family : $header-font;
+    font-size   : 18px;
+
+    display : flex;
+
+    flex-wrap : wrap;
+
+    list-style : none;
+
+    justify-content: center;
+
+    text-transform : uppercase;
+}
+
+header ul a
+{
+    @extend %rest;
+
+    font-size: 0.875rem;
+    
+    margin-top    : 8px;
+    margin-bottom : 8px;
+
+    margin-right : 64px;
+    margin-left  : 64px;
+
+    border-bottom: $selected_bottom_border solid rgba( 0, 0, 0, 0.0 );
+}
+
+header ul a:hover
+{
+    @extend %activate;
+
+}
+
+header ul a li
+{
+    display: block;
+
+}
+
+.selected
+{
+    color  : #D63031 !important;
+    border-bottom: $selected_bottom_border solid #D63031;
+
+    padding-left  : 8px;
+    padding-right : 8px;
+}
+
+.selected:hover
+{
+    border-radius: 0px;
+    
+}
+
+// Rules Only. 
+@media only screen and (max-width: 768px) 
+{
+    header 
+    {
+     
+        background-color : $document_header_color;
+        
+        padding:0px;
+        margin: 0px;
+    }
+
+    /* For mobile phones: */
+    /* 
+    header ul a
+    {
+        width: 100%;
+        margin: 0px;
+
+        text-align: center;
+        
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .selected
+    {
+        border: 0px;
+
+        color: white !important;
+        background-color: #D63031;
+        
+        border-radius: 0px;
+    }
+
+    .selected:hover 
+    {
+        color: white !important;
+    }
+}
+*/
+
+.page_navigation_area
+{
+    display: none;
+    z-index: 4;
+    position: fixed;
+    
+    width : 100%;
+    background-color: black;
+}
+
+.selected_page
+{
+    color: #D63031 !important;
+    border-bottom: 2px solid #D63031 !important;
+}
+
+.page_header_area
+{
+    
+}
+
+/* 
+    Default Settings
+*/
+header
+{
+
+}
+
+header ul
+{
+    padding : 0px;
+    margin  : 0px;
+
+    text-transform : uppercase;
+
+    display   : flex;
+    flex-wrap : wrap;
+    
+    justify-content : center;
+}
+
+header ul a 
+{
+    color:white;
+
+    font-size : 0.875rem;
+    
+    text-decoration : none;
+    
+    font-family : $header-font;
+    
+    border-bottom: 2px solid rgba(255, 255, 255, 0.0);
+    
+    margin-top    : 8px;
+    margin-bottom : 8px;
+
+    margin-right : 64px;
+    margin-left  : 64px;
+}
+
+header ul a:hover 
+{
+    color: #D63031 !important;
+}
+
+header ul a li 
+{
+    display: block;
+
+    padding-left  : 8px;
+    padding-right : 8px;
+}
+
+.show
+{
+    display: block;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .page_header_area
+    {
+        display: none;
+    }
+
+    .mobile_page_navigation_area
+    {
+        background-color: black;
+    }
+
+    .mobile_page_navigation_area ul
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .mobile_page_navigation_area ul a
+    {
+        padding: 0px;
+        margin: 0px;
+
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        width: 100%;
+    }
+
+    .mobile_page_navigation_area ul a li
+    {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .selected_page
+    {
+        border: 0px solid rgba(255, 255, 255, 0.0);
+        color: white !important;
+        background-color: #D63031;
+    }
+
+    .selected_page:hover 
+    {
+        color: white !important;
+    }
+}

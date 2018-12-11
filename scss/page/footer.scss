@@ -1,0 +1,193 @@
+//
+footer
+{
+    @extend %extend-width;
+    @extend %no-margin-or-padding;
+
+    background-color: $document_footer_color;
+}
+
+.footer-misc
+{
+    @extend %not-selecteble;
+    @extend %no-margin-or-padding;
+    @extend %extend-width;
+
+    font-family: $footer-font;
+
+    background-color : white;
+    color            : black;
+}
+
+.footer-misc p
+{
+    @extend %no-margin-or-padding;
+    @extend %extend-width;
+
+    
+    padding-top: 0px;
+    padding-bottom: 6px;
+    
+    font-size : 12px;
+
+    text-align      : center;
+    text-transform  : uppercase;
+}
+
+.footer-misc ul
+{
+    @extend %no-margin-or-padding;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    display : flex;
+
+    flex-wrap : wrap;
+    list-style : none;
+
+    justify-content: center;
+    text-transform: uppercase;
+
+    font-size: 0.875rem;
+}
+
+.footer-misc ul a
+{
+     color: black;
+     text-decoration: none;
+
+     margin-left  : 20px;
+     margin-right : 20px;
+     
+     font-weight: bold;
+}
+
+.footer-misc ul a:hover
+{
+     color : #D63031;
+}
+
+.footer-misc ul a li
+{ 
+    display: block;
+}
+
+.footer-contact
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    color: white;
+    font-family:$footer-font; 
+}
+
+.mail
+{
+    text-decoration: none;
+    color:white;
+}
+
+.mail:hover
+{
+    
+    color: #D63031;
+}
+
+.footer-contact p
+{
+    @extend %no-margin-or-padding;
+    @extend %extend-width;
+
+    text-align: center;
+    
+    font-size: 0.875rem;
+}
+
+.footer-social
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-social ul
+{
+    @extend %no-margin-or-padding;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-social ul div li a
+{
+    @extend %no-margin-or-padding;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+    color: white;
+
+    width: 50px;
+    
+    display: block;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-social ul div li a i
+{
+    font-size: 32px;
+    text-align: center;
+}
+
+.footer-social-container
+{
+    width: 50%;
+}
+
+.footer-social-container li 
+{
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+.facebook a:hover
+{
+    color:#3b5998;
+}
+
+.instagram a:hover
+{
+    color:#D63031;
+}
+
+.twitter a:hover
+{
+    color: #00aced;
+}
+
+.youtube a:hover
+{
+    color:#cc181e;
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+    .footer-misc ul a
+    {
+        width: 100%;
+
+        margin  : 0px !important;
+        padding : 0px !important;
+
+        text-align    : center;
+        border-bottom : 1px solid black;
+    }
+}
