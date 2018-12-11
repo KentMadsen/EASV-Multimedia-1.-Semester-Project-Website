@@ -1,8 +1,6 @@
 header
 {
     position : relative;
-    // #000000 Black
-    // #090828 default
 }
 
 #header-overlay
@@ -13,12 +11,10 @@ header
                  16px
                  rgba( 0, 0, 0, 
                          0.2 );
-    z-index: -3;
 }
 
 header ul
 {
-    z-index: 1;
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
 
