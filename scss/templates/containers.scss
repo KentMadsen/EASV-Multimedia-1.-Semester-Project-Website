@@ -180,7 +180,7 @@
     /* For mobile phones: */
     .container-area-3
     {
-        grid-template-columns : auto;
+        grid-template-columns : auto !important;
         grid-template-rows    : auto auto auto !important;
     }
 
