@@ -37,6 +37,7 @@ function overlay_click()
 
         for(i=0; i < x.length; i++)
         {
+            console.log('added');
             x[i].classList.add('show');
         }
     }
@@ -49,6 +50,7 @@ function overlay_click()
 
         for(i=0; i < x.length; i++)
         {
+            console.log('removed');
             x[i].classList.remove('show');
         }
     }
