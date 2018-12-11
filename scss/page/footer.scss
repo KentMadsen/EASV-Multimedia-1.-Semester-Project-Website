@@ -34,8 +34,11 @@ footer
 {
     @extend %no-margin-or-padding;
 
-    display : flex;
+    margin-top: 3px;
+    margin-bottom: 3px;
     
+    display : flex;
+
     flex-wrap : wrap;
     list-style : none;
 
