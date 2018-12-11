@@ -13,9 +13,14 @@
   user-select: none;          
 };
 
-%no-margin-or-padding
+%no-margin
 {
   margin  : 0px;
+}
+
+%no-margin-or-padding
+{
+  @extend %no-margin;
   padding : 0px;
 }
 
