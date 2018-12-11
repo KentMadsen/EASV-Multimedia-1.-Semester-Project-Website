@@ -11,6 +11,7 @@ function select_page( name_of_header )
     }
 }
 
+// TODO: Renamed layer, another function. turns header darker. on desktop version.
 function use_overlay()
 {
     var x = document.getElementsByClassName('page_header_area');
@@ -22,8 +23,9 @@ function use_overlay()
     }
 }
 
+// Mobile. Show's the menu
 function overlay_click()
 {
-    console.log('overlay clicked: registered');
+    
 
 }
