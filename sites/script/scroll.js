@@ -4,7 +4,7 @@ window.onscroll = function()
 {
   var currentScrollPos = window.pageYOffset;
 
-  if( currentScrollPos > 400 )
+  if( currentScrollPos > 250 )
   {
       var x = document.getElementsByClassName('page_navigation_area');
       var i;
