@@ -112,6 +112,7 @@ footer
     @extend %no-margin-or-padding;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
