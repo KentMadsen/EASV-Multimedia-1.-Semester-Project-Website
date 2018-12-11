@@ -196,7 +196,7 @@
     .double-container
     {
         grid-area: auto;
-        grid-template-rows: repeat(2, auto);
+        grid-template-rows: repeat(auto-fill, auto);
     }
 
     .container-area-3
