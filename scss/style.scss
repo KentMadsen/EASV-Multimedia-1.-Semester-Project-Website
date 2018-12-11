@@ -86,9 +86,8 @@ main
 //
 footer
 {
+    @extend %extend-width;
     @extend %no-margin-or-padding;
-
-    width: 100%;
 
     background-color: #090828;
 }
@@ -97,10 +96,9 @@ footer
 {
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
+    @extend %extend-width;
 
     font-family: $footer-font;
-
-    width: 100%;
 
     background-color : white;
     color            : black;
@@ -109,10 +107,9 @@ footer
 .footer-misc p
 {
     @extend %no-margin-or-padding;
+    @extend %extend-width;
 
     font-size : 12px;
-
-    width : 100%;
 
     text-align      : center;
     text-transform  : uppercase;
@@ -178,8 +175,8 @@ footer
 .footer-contact p
 {
     @extend %no-margin-or-padding;
+    @extend %extend-width;
 
-    width: 100%;
     text-align: center;
     
     font-size: 0.875rem;
@@ -255,7 +252,7 @@ footer
     /* For mobile phones: */
     header ul a
     {
-        width: 100%;
+        @extend %extend-width;
         text-align: center;
         border-bottom: 1px solid white;
     }
@@ -270,10 +267,10 @@ footer
 
     .footer-misc ul a
     {
+        @extend %extend-width;
+
         margin  : 0px !important;
         padding : 0px !important;
-
-        width : 100%;
 
         text-align    : center;
         border-bottom : 1px solid black;
