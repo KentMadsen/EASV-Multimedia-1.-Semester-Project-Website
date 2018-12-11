@@ -36,6 +36,7 @@
         <script src="./script/scripts.js"
                 onload="select_page('header_articles_link');">
         </script>
+        
         <script src="./script/scroll.js">
         </script>
         
