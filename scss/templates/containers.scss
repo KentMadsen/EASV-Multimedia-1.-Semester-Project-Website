@@ -195,7 +195,8 @@
   {
     .double-container
     {
-        grid-area: auto auto;
+        grid-area: auto;
+        grid-auto-columns: auto;
     }
 
     .container-area-3
