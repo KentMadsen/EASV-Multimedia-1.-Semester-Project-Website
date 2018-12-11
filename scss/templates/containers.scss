@@ -13,7 +13,7 @@
     @extend %no-margin-or-padding;
 
     grid-area: auto;
-    grid-row-end: span 2;
+    grid-column-end: span 2;
 }
 
 .cover-container
