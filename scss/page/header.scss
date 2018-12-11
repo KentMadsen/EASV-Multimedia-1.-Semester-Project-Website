@@ -64,19 +64,9 @@ header ul a li
 
 }
 
-.header_background
-{
-    top: 0px;
-    height: 100%;
-    width: 100%;
-
-    background: black;
-    z-index: -1;
-}
-
 .selected
 {
-    z-index: 3;
+    
     color  : #D63031 !important;
     border-bottom: $selected_bottom_border solid #D63031;
 
