@@ -4,7 +4,8 @@ header
 
     position : relative;
 
-    background-color : #000000;
+    // #000000 Black
+    background-color : #090828;
 
     box-shadow : 0px 0px
                  16px
@@ -26,7 +27,7 @@ header ul
 
     list-style : none;
 
-    justify-content: space-around;
+    justify-content: center;
 
     text-transform : uppercase;
 }
