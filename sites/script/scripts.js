@@ -25,24 +25,27 @@ function use_overlay()
 
 function init()
 {
-    console.log('init');
+    
     
 }
 
 var mobile_overlay = false;
 
+function switch_mobile_overlay_mode()
+{
+    mobile_overlay = !mobile_overlay;
+}
+
 // Mobile. Show's the menu
 function overlay_click()
 {
-    console.log(mobile_overlay);
-
     var i;
 
     //
     if( mobile_overlay == false )
     {
         // Turn overlay state
-        mobile_overlay = !mobile_overlay;
+        switch_mobile_overlay_mode();
 
         // Show Menu
         var x = document.getElementsByClassName('mobile_page_navigation_area');
@@ -58,7 +61,7 @@ function overlay_click()
     else 
     {
         // Turn overlay state to it's opposite
-        mobile_overlay = !mobile_overlay;
+        switch_mobile_overlay_mode();
 
         // Remove
         // Show Menu
