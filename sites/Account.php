@@ -38,5 +38,8 @@
         </script>
         <script src="./script/scroll.js">
         </script>
+        <script src="./script/scripts.js"
+                onload="use_overlay();">
+        </script>
     </body>
 </html>
