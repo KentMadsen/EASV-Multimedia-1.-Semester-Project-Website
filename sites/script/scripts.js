@@ -26,7 +26,7 @@ function use_overlay()
 function init()
 {
     console.log('init');
-    mobile_overlay = true;
+    
 }
 
 var mobile_overlay = false;
