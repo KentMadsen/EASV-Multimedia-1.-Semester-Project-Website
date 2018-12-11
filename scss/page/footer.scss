@@ -123,14 +123,16 @@ footer
 {
     @extend %no-margin-or-padding;
 
+    margin-left: auto;
+    margin-right: auto;
+    
     color: white;
 
-    text-align: center;
 }
 
 .footer-social-container
 {
-    
+    width: 50%;
 }
 
 .footer-social ul a:hover 
