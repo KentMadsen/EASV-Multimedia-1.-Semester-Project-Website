@@ -131,6 +131,7 @@ header ul a li
 .selected_page
 {
     color: #D63031 !important;
+    border-bottom: 4px solid #D63031 !important;
 }
 
 .page_header_area
@@ -174,6 +175,11 @@ header ul a
 
     margin-right : 64px;
     margin-left  : 64px;
+}
+
+header ul a:hover 
+{
+    color: #D63031 !important;
 }
 
 header ul a li 
