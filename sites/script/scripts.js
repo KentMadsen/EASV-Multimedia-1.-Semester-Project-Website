@@ -23,9 +23,34 @@ function use_overlay()
     }
 }
 
+var mobile_overlay=false;
+
 // Mobile. Show's the menu
 function overlay_click()
 {
-    
+    if( mobile_overlay )
+    {
+        mobile_overlay = true;
+        
+        var x = document.getElementsByClassName('mobile_page_navigation_area');
+        var i;
+
+        for(i=0; i < x.length; i++)
+        {
+            x[i].classList.add('show');
+        }
+    }
+    else
+    {
+        mobile_overlay = false;
+
+        var x = document.getElementsByClassName('mobile_page_navigation_area');
+        var i;
+
+        for(i=0; i < x.length; i++)
+        {
+            x[i].classList.remove('show');
+        }
+    }
 
 }
