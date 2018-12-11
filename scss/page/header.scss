@@ -64,6 +64,12 @@ header ul a li
 
 }
 
+.header_background
+{
+    background: black;
+    z-index: -1;
+}
+
 .selected
 {
     color  : #D63031 !important;
