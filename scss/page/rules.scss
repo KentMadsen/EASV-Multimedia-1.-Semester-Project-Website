@@ -1,0 +1,19 @@
+// Rules
+@media only screen and (max-width: 768px)
+{
+    /*
+        ONLY - Rules
+    */
+    .hide_on_mobile
+    {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 769px)
+{
+    .hide_on_desktop
+    {
+        display: none !important;
+    }
+}

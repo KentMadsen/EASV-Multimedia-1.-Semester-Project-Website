@@ -1,0 +1,19 @@
+body
+{
+    @extend %extend-fully;
+    @extend %no-margin-or-padding;
+
+    display : grid;
+
+    grid-template-rows   : auto auto auto;
+    grid-template-columns: auto;
+
+    grid-gap: 0px;
+}
+
+//
+main
+{
+    grid-area: auto;
+    min-height: 600px;
+}
