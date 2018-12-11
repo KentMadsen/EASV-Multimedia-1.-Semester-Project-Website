@@ -13,7 +13,6 @@
     @extend %no-margin-or-padding;
 
     grid-area: auto;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .cover-container
