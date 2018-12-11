@@ -4,7 +4,7 @@ footer
     @extend %extend-width;
     @extend %no-margin-or-padding;
 
-    background-color: #000000;
+    background-color: $document_footer_color;
 }
 
 .footer-misc
