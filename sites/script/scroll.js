@@ -18,6 +18,9 @@ window.onscroll = function()
   }
   else 
   {
+      var x = document.getElementsByClassName('page_navigation_area');
+      var i;
+
       for(  i = 0; 
             i < x.length; 
             i ++ )
