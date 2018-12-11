@@ -141,6 +141,8 @@ header ul
 {
     padding: 0px;
     margin: 0px;
+
+    display: flex;
 }
 
 header ul a 
@@ -153,5 +155,6 @@ header ul a
 
 header ul a li 
 {
+    display: block;
     
 }
