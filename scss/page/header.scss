@@ -21,6 +21,7 @@ header
 
 header ul
 {
+    z-index: 0;
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
 
