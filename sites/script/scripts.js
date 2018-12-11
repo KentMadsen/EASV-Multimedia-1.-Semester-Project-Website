@@ -28,32 +28,6 @@ var mobile_overlay = false;
 // Mobile. Show's the menu
 function overlay_click()
 {
-
-    if( mobile_overlay == false )
-    {
-        mobile_overlay = true;
-        
-        var x = document.getElementsByClassName('mobile_page_navigation_area');
-        var i;
-
-        for(i=0; i < x.length; i++)
-        {
-            console.log('added');
-            x[i].classList.add('show');
-        }
-    }
-    else
-    {
-        mobile_overlay = false;
-
-        var x = document.getElementsByClassName('mobile_page_navigation_area');
-        var i;
-
-        for(i=0; i < x.length; i++)
-        {
-            console.log('removed');
-            x[i].classList.remove('show');
-        }
-    }
+    console.log(mobile_overlay);
 
 }
