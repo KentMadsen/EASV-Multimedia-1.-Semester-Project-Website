@@ -40,7 +40,7 @@ header ul
 
 header ul a
 {
-    z-index: 2;
+    z-index: 3;
     @extend %rest;
 
     font-size: 0.875rem;
@@ -62,12 +62,14 @@ header ul a:hover
 
 header ul a li
 {
+    z-index: 3;
     display: block;
 
 }
 
 .header_background
 {
+    z-index: 3;
     top: 0px;
     height: 100%;
     width: 100%;
@@ -78,6 +80,7 @@ header ul a li
 
 .selected
 {
+    z-index: 3;
     color  : #D63031 !important;
     border-bottom: $selected_bottom_border solid #D63031;
 
