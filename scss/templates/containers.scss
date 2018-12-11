@@ -10,90 +10,78 @@
 
 .container-area
 {
-    margin: 0px;
-    padding:0px;
+    @extend %no-margin-or-padding;
 
     grid-area: auto;
 }
 
 .cover-container
 {
-    background-color: gray;
+    @extend %extend-width;
     
-    width: 100%;
+    
     height: 450px;
+    position: relative;
 
 }
-
-/* 
-Overvej noget lignende ?
-background-image: linear-gradient( to bottom,
-                                       #fdfbfb,
-                                       #ebedee );
-*/
 
 .container-short-description
 {
     width: 300px;
 
-
-    margin-right: auto;
-    margin-left: auto;
+    margin-right : auto;
+    margin-left  : auto;
     
 }
 
 .container-short-description p 
 {
     text-align: center;
+
     font-family: 'Open Sans';
     font-size: 14px;
 }
 
 .area 
 {
-    margin: 0px;
-    padding: 0px;
+    @extend %no-margin-or-padding;
 
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top    : 32px !important;
+    margin-bottom : 32px !important;
 }
 
 .cooperation_with
 {
-    margin: 0px;
+    @extend %no-margin;
     
     width: 95%;
+
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .cooperation_with ul 
 {
+    @extend %no-margin-or-padding;
+    @extend %extend-width;
+
     display: grid;
 
     grid-gap: 32px;
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px;
-
-    width: 100%;
-
-    padding:0px;
-    margin:0px;
-    
 }
 
 .cooperation_with ul a 
 {
+    @extend %no-margin-or-padding;
+    @extend %extend-width;
+
     color: black;
     text-decoration: none;
 
-    margin: 0px;
-    padding:0px;
-
     height: auto;
-    width: 100%;
     
     opacity: 0.2;
 }
@@ -118,10 +106,12 @@ background-image: linear-gradient( to bottom,
 
 .cooperation_area p
 {
+    @extend %extend-width;
+
     font-family: 'Open Sans';
+
     text-transform: uppercase;
     text-align: center;
-    width: 100%;
 }
 
 .center
@@ -151,19 +141,20 @@ background-image: linear-gradient( to bottom,
 
 .cooperation_with ul a li 
 {
+    @extend %no-margin-or-padding;
     list-style: none;
-    margin: 0px;
-    padding: 0px;
 }
 
 .cooperation_with ul a li img 
 {
-    width: 100%;
+    @extend %extend-width;
     height: auto;
 }
 
 .container-short-description i 
 {
+    @extend %extend-width;
+
     margin-top: 16px;
     margin-bottom: 16px;
     
@@ -171,7 +162,6 @@ background-image: linear-gradient( to bottom,
 
     font-size: 80px;
     text-align: center;
-    width: 100%;
 }
 
 @media only screen and (max-width: 768px)
@@ -179,14 +169,14 @@ background-image: linear-gradient( to bottom,
     /* For mobile phones: */
     .container-area-3
     {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
+        grid-template-columns : auto;
+        grid-template-rows    : auto auto auto;
     }
 
     .cooperation_with ul 
     {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns : auto;
+        grid-template-rows    : auto auto auto auto auto;
     }
   }
 
@@ -195,8 +185,10 @@ background-image: linear-gradient( to bottom,
     .cooperation_with ul a 
     {
         position: absolute;
+        
         top: 50%;
         left: 50%;
+
         transform: translate(-50%, -50%);
     }
 

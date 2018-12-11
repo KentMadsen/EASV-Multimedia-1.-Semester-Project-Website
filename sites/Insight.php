@@ -37,5 +37,6 @@
         <script src="./script/scripts.js"
                 onload="select_page('header_insight_link');">
         </script>
+        
     </body>
 </html>
