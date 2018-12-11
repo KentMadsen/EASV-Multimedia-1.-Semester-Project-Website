@@ -196,13 +196,13 @@
     .double-container
     {
         grid-area: auto;
-        grid-auto-columns: span 2;
+        grid-column: span 2 !important;
     }
 
     .container-area-3
     {
         grid-template-columns: auto auto;
-        grid-template-rows: minmax(1fr, auto);
+        grid-template-rows: auto auto;
     }
   }
 
