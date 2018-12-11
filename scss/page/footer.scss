@@ -119,7 +119,7 @@ footer
     justify-content: space-around;
 }
 
-.footer-social ul a
+.footer-social ul div a
 {
     @extend %no-margin-or-padding;
 
@@ -138,10 +138,6 @@ footer
     
 }
 
-.footer-social ul a:hover 
-{
-    
-}
 
 .footer-social ul div a li
 {
