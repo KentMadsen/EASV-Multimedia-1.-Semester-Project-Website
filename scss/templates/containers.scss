@@ -45,8 +45,8 @@
 {
     @extend %no-margin-or-padding;
 
-    margin-top: 32px !important;
-    margin-bottom: 32px !important;
+    margin-top    : 32px !important;
+    margin-bottom : 32px !important;
 }
 
 .cooperation_with
@@ -57,12 +57,12 @@
 
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .cooperation_with ul 
 {
     @extend %no-margin-or-padding;
+    @extend %extend-width;
 
     display: grid;
 
@@ -70,19 +70,17 @@
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px;
-
-    width: 100%;
 }
 
 .cooperation_with ul a 
 {
     @extend %no-margin-or-padding;
+    @extend %extend-width;
 
     color: black;
     text-decoration: none;
 
     height: auto;
-    width: 100%;
     
     opacity: 0.2;
 }
@@ -107,10 +105,12 @@
 
 .cooperation_area p
 {
+    @extend %extend-width;
+
     font-family: 'Open Sans';
+
     text-transform: uppercase;
     text-align: center;
-    width: 100%;
 }
 
 .center
@@ -146,12 +146,14 @@
 
 .cooperation_with ul a li img 
 {
-    width: 100%;
+    @extend %extend-width;
     height: auto;
 }
 
 .container-short-description i 
 {
+    @extend %extend-width;
+
     margin-top: 16px;
     margin-bottom: 16px;
     
@@ -159,8 +161,6 @@
 
     font-size: 80px;
     text-align: center;
-
-    width: 100%;
 }
 
 @media only screen and (max-width: 768px)
