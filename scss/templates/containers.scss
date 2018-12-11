@@ -19,7 +19,6 @@
 {
     @extend %extend-width;
     
-    
     height: 450px;
     position: relative;
 
@@ -189,6 +188,15 @@
     {
         grid-template-columns : auto;
         grid-template-rows    : auto auto auto auto auto;
+    }
+  }
+
+  @media only screen and (max-width:1024px)
+  {
+    .container-area-3
+    {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
     }
   }
 
