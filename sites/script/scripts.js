@@ -31,6 +31,7 @@ function init()
 
 var mobile_overlay = false;
 var id_for_mobile_overlay_nav = 'mobile_page_navigation_area';
+var hide_overlay = 'hide';
 
 
 function switch_mobile_overlay_mode()
@@ -50,13 +51,13 @@ function overlay_click()
         switch_mobile_overlay_mode();
 
         // Show Menu
-        var x = document.getElementsByClassName(id_for_mobile_overlay_nav);
+        var x = document.getElementsByClassName( id_for_mobile_overlay_nav );
 
-        for( i =0; 
-             i < x.length; 
-             i++ )
+        for( i = 0;
+             i < x.length;
+             i ++ )
         {
-            x[i].classList.remove('hide');
+            x[i].classList.remove( hide_overlay );
         }
 
     }
@@ -67,13 +68,13 @@ function overlay_click()
 
         // Remove
         // Show Menu
-        var x = document.getElementsByClassName(id_for_mobile_overlay_nav);
+        var x = document.getElementsByClassName( id_for_mobile_overlay_nav );
  
-        for( i =0; 
-             i < x.length; 
-             i++ )
+        for( i = 0;
+             i < x.length;
+             i ++ )
          {
-             x[i].classList.add('hide');
+             x[i].classList.add( hide_overlay );
          }
 
     }
