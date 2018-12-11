@@ -39,11 +39,14 @@ header ul a
 
     font-size: 0.875rem;
 
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top    : 8px;
+    margin-bottom : 8px;
 
-    margin-right: 64px;
-    margin-left: 64px;
+    margin-right : 64px;
+    margin-left  : 64px;
+
+    border-bottom: rgba( 0, 0, 0,
+                           0.0 );
 }
 
 header ul a:hover
@@ -61,7 +64,7 @@ header ul a li
 .selected
 {
     color  : #D63031 !important;
-    border : 2px solid #D63031;
+    border-bottom : 2px solid #D63031;
 
     padding-left  : 8px;
     padding-right : 8px;
