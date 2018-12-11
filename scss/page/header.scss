@@ -105,8 +105,9 @@ header ul a li
     .selected
     {
         border: 0px;
+        color: white !important;
         background-color: #D63031;
-        color: white;
+        
         border-radius: 0px;
     }
 }
