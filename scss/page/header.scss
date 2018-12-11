@@ -325,3 +325,11 @@ header ul a li
         color: white !important;
     }
 }
+
+@media only screen and (min-width: 769px) 
+{
+    .hide 
+    {
+        display: none !important;
+    }
+}
