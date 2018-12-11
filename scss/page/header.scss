@@ -192,5 +192,9 @@ header ul a li
 
 @media only screen and (max-width: 768px) 
 {
+    .page_header_area
+    {
+        display: none;
+    }
 
 }
