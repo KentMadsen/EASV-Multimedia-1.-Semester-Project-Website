@@ -40,5 +40,8 @@
         </script>
         <script src="./script/scroll.js">
         </script>
+        <script src="./script/scripts.js"
+                onload="init();">
+        </script>
     </body>
 </html>
