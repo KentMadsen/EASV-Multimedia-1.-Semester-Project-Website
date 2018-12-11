@@ -24,6 +24,7 @@ footer
     @extend %no-margin-or-padding;
     @extend %extend-width;
 
+    padding-top: 3px;
     font-size : 12px;
 
     text-align      : center;
@@ -36,7 +37,7 @@ footer
 
     margin-top: 3px;
     margin-bottom: 3px;
-    
+
     display : flex;
 
     flex-wrap : wrap;
