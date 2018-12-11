@@ -41,5 +41,9 @@
         <script src="./script/scripts.js"
                 onload="use_overlay();">
         </script>
+        
+        <script src="./script/scripts.js"
+                onload="init();">
+        </script>
     </body>
 </html>

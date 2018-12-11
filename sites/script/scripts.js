@@ -23,6 +23,11 @@ function use_overlay()
     }
 }
 
+function init()
+{
+    
+}
+
 var mobile_overlay = true;
 
 // Mobile. Show's the menu
