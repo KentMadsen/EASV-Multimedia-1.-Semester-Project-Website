@@ -22,7 +22,7 @@ function use_overlay()
     }
 }
 
-function show_overlay()
+function overlay_click()
 {
-    
+
 }
