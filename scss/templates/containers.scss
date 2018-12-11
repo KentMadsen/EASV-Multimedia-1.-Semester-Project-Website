@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 
-    grid-template-areas: 'container_area container_area container_area';
+    grid-template-areas: 'container_area' 'container_area' 'container_area';
 
     grid-gap: 16px;
 }
