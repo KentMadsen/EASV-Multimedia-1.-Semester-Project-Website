@@ -195,16 +195,14 @@
   {
     .double-container
     {
-        grid-area: double_containment;
+        grid-area: auto;
+        grid-column: 1/2;
     }
 
     .container-area-3
     {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-
-        
-
     }
   }
 
