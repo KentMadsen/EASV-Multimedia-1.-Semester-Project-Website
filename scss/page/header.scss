@@ -6,7 +6,7 @@ header
 
     // #000000 Black
     // #090828 default
-    z-index: -2;
+    z-index: 0;
 }
 
 #header-overlay
@@ -21,7 +21,7 @@ header
 
 header ul
 {
-    z-index: 0;
+    z-index: 1;
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
 
