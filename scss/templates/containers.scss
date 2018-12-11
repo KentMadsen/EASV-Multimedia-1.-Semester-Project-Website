@@ -200,7 +200,7 @@
 
     .container-area-3
     {
-        grid-template-columns: minmax(1fr, auto);
+        grid-template-columns: auto auto;
         grid-template-rows: minmax(1fr, auto);
     }
   }
