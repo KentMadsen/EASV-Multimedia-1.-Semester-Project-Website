@@ -30,6 +30,8 @@ function init()
 }
 
 var mobile_overlay = false;
+const id_for_mobile_overlay_nav = 'mobile_page_navigation_area';
+
 
 function switch_mobile_overlay_mode()
 {
@@ -48,7 +50,7 @@ function overlay_click()
         switch_mobile_overlay_mode();
 
         // Show Menu
-        var x = document.getElementsByClassName('mobile_page_navigation_area');
+        var x = document.getElementsByClassName(id_for_mobile_overlay_nav);
 
         for( i =0; 
              i < x.length; 
@@ -65,7 +67,7 @@ function overlay_click()
 
         // Remove
         // Show Menu
-        var x = document.getElementsByClassName('mobile_page_navigation_area');
+        var x = document.getElementsByClassName(id_for_mobile_overlay_nav);
  
         for( i =0; 
              i < x.length; 
