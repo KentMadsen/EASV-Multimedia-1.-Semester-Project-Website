@@ -40,6 +40,7 @@ header ul
 
 header ul a
 {
+    z-index: 2;
     @extend %rest;
 
     font-size: 0.875rem;
