@@ -3,8 +3,10 @@ header
     position : relative;
 }
 
-#header-overlay
+.overlay
 {
+    background-color : $document_header_color;
+
     box-shadow : 0px 0px
                  16px
                  rgba( 0, 0, 0, 
