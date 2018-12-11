@@ -124,8 +124,13 @@ footer
     @extend %no-margin-or-padding;
 
     color: white;
-    width: 50%;
+
     text-align: center;
+}
+
+.footer-social-container
+{
+    
 }
 
 .footer-social ul a:hover 
