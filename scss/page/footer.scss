@@ -156,6 +156,27 @@ footer
     font-size: 32px;
 }
 
+.facebook a:hover
+{
+    color:#3b5998;
+}
+
+.instagram a:hover
+{
+    color:#D63031;
+}
+
+.twitter a:hover
+{
+    color: #00aced;
+}
+
+.youtube a:hover
+{
+    color:#cc181e;
+}
+
+
 @media only screen and (max-width: 768px) 
 {
     .footer-misc ul a
