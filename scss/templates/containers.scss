@@ -190,7 +190,6 @@
 
   @media only screen and (min-width:769px)
   {
-      /* 
     .double-container
     {
         grid-area: auto;
@@ -202,14 +201,14 @@
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
     }
-    */
+    
   }
 
   @media only screen and (min-width: 1025px)
   {
       .container-area-3
       {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr !important;
         grid-template-rows: auto;
       }
   }
