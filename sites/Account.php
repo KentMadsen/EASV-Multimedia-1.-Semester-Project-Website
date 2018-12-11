@@ -36,5 +36,8 @@
         <script src="./script/scripts.js"
                 onload="select_page('header_profile_link');">
         </script>
+        <script src="./script/scripts.js"
+                onload="show_header()">
+        </script>
     </body>
 </html>
