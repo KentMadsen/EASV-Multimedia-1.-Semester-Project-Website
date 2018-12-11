@@ -35,4 +35,8 @@ function overlay_click()
         mobile_overlay = true;
 
     }
+    else 
+    {
+        mobile_overlay = false;
+    }
 }
