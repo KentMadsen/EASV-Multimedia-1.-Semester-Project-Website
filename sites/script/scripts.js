@@ -24,5 +24,6 @@ function use_overlay()
 
 function overlay_click()
 {
+    console.log('overlay clicked: registered');
 
 }
