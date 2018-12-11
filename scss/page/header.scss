@@ -152,7 +152,7 @@ header ul
     padding : 0px;
     margin  : 0px;
 
-    font-size   : 18px;
+    text-transform : uppercase;
 
     display   : flex;
     flex-wrap : wrap;
@@ -167,7 +167,6 @@ header ul a
     font-size : 0.875rem;
     
     text-decoration : none;
-    text-transform  : uppercase;
     
     font-family : $header-font;
     
