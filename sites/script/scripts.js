@@ -25,7 +25,7 @@ function use_overlay()
 
 function init()
 {
-    
+    mobile_overlay = true;
 }
 
 var mobile_overlay = true;
