@@ -4,14 +4,13 @@
 
 @import './templates/containers.scss';
 
-@import './page/header.scss';
-@import './page/footer.scss';
-@import './page/body.scss';
-@import './page/rules.scss';
-
 @import './covers.scss';
 
 $header-font: 'Open Sans';
 $footer-font: 'Open Sans';
 
-// Social
+// include
+@import './page/header.scss';
+@import './page/footer.scss';
+@import './page/body.scss';
+@import './page/rules.scss';
