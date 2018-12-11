@@ -12,7 +12,7 @@
 {
     @extend %no-margin-or-padding;
 
-    grid-area: container_area_dynamic;
+    grid-area: auto;
 }
 
 .cover-container
