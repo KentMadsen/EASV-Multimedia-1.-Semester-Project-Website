@@ -17,3 +17,11 @@
         display: block !important;
     }
 }
+
+@media only screen and (min-width: 769)
+{
+    .show_on_mobile
+    {
+        display: none !important;
+    }
+}
