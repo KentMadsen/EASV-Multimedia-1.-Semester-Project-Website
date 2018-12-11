@@ -62,7 +62,6 @@ header ul a li
 
 .selected
 {
-    
     color  : #D63031 !important;
     border-bottom: $selected_bottom_border solid #D63031;
 
@@ -76,6 +75,7 @@ header ul a li
     
 }
 
+// Rules Only. 
 @media only screen and (max-width: 768px) 
 {
     header 
