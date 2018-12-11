@@ -30,9 +30,9 @@ function overlay_click()
 {
     console.log(mobile_overlay);
 
-    if(mobile_overlay === false)
+    if(mobile_overlay == false)
     {
         mobile_overlay = true;
-        
+
     }
 }
