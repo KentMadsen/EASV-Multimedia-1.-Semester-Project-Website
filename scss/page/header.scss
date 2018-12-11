@@ -1,12 +1,8 @@
 header
 {
-    
-
     position : relative;
-
     // #000000 Black
     // #090828 default
-    z-index: 0;
 }
 
 #header-overlay
@@ -17,6 +13,7 @@ header
                  16px
                  rgba( 0, 0, 0, 
                          0.2 );
+    z-index: 0;
 }
 
 header ul
