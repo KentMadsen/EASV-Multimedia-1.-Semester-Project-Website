@@ -29,7 +29,7 @@ function init()
     mobile_overlay = true;
 }
 
-var mobile_overlay = true;
+var mobile_overlay = false;
 
 // Mobile. Show's the menu
 function overlay_click()
