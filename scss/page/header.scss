@@ -200,7 +200,12 @@ header ul a li
 
 .show
 {
-    display: block !important;
+    display: block;
+}
+
+.hide 
+{
+    display: none;
 }
 
 .menu_button
@@ -267,8 +272,6 @@ header ul a li
 
     .mobile_page_navigation_area
     {
-        display: none;
-     
         z-index: 4;
         background-color: black;
 
