@@ -23,7 +23,7 @@
 
     <body>
         <?php
-            include './generics/Header.html';
+            include './Header.php';
         ?>
         <main>
             <?php 
