@@ -29,6 +29,26 @@
     left: 20px;
 }
 
+.open
+{
+
+}
+
+.open .open-icon
+{
+    display: none;
+}
+
+.open .close-icon
+{
+    display: block;
+}
+
+.close-icon
+{
+    display: none;
+}
+
 .overlay
 {
     background-color: black;
@@ -227,7 +247,7 @@ header ul a li
     .selected_page:hover 
     {
         border: 0px;
-        
+
         color : white !important;
     }
 }
