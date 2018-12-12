@@ -1,18 +1,21 @@
 .page_navigation_area
 {
     display: none;
+    
     z-index: 4;
-    position: fixed;
+
+    position : fixed;
     
     width : 100%;
-    background-color: black;
-    overflow: hidden
+    background-color : black;
+
+    overflow : hidden
 }
 
 .selected_page
 {
-    color: #D63031 !important;
-    border-bottom: 2px solid #D63031 !important;
+    color : #D63031 !important;
+    border-bottom : 2px solid #D63031 !important;
 }
 
 .page_header_area
@@ -62,7 +65,9 @@ header ul a
     
     font-family : $header-font;
     
-    border-bottom: 2px solid rgba(255, 255, 255, 0.0);
+    border-bottom : 2px solid rgba( 255, 255, 
+                                      255, 
+                                      0.0 );
     
     margin-top    : 8px;
     margin-bottom : 8px;
@@ -78,7 +83,7 @@ header ul a:hover
 
 header ul a li
 {
-    display: block;
+    display : block;
 
     padding-left  : 8px;
     padding-right : 8px;
@@ -96,10 +101,11 @@ header ul a li
 
 .menu_button
 {
-    cursor: pointer;
+    cursor : pointer;
 
-    z-index: 4;
-    position: fixed;
+    z-index : 4;
+    
+    position : fixed;
 
     top   : 20px;
     right : 20px;
@@ -107,11 +113,17 @@ header ul a li
     width  : 50px;
     height : 50px;
 
-    border: 2px solid #D63031;
-    background-color: white;
+    border : 2px solid #D63031;
+    
+    background-color : white;
 
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.4);
-    border-radius: 100%;
+    box-shadow : 0px 0px 
+                 16px 
+                 rgba( 0, 0, 
+                         0, 
+                         0.4);
+    
+    border-radius : 100%;
 }
 
 .menu_button:hover div i
@@ -175,19 +187,19 @@ header ul a li
 
     .mobile_page_navigation_area ul
     {
-        padding: 0px;
-        margin: 0px;
+        padding : 0px;
+        margin  : 0px;
     }
 
     .mobile_page_navigation_area ul a
     {
-        padding: 0px;
-        margin: 0px;
+        padding : 0px;
+        margin  : 0px;
 
-        padding-top: 8px;
-        padding-bottom: 8px;
+        padding-top    : 8px;
+        padding-bottom : 8px;
 
-        width: 100%;
+        width : 100%;
     }
 
     .mobile_page_navigation_area ul a:hover
@@ -198,16 +210,17 @@ header ul a li
 
     .mobile_page_navigation_area ul a li
     {
-        width: 100%;
-        text-align: center;
+        width : 100%;
 
+        text-align : center;
     }
 
     .selected_page
     {
-        border: 0px;
-        color: white !important;
-        background-color: #D63031;
+        border : 0px;
+
+        color            : white !important;
+        background-color : #D63031;
         
     }
 
