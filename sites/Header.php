@@ -23,9 +23,13 @@
 
 <div class="hide_on_desktop">
     <div class="menu_button" onclick="overlay_click()">
-        <div class="menu_button_icon">
-                <i class="fas fa-bars">
-                </i>
+        <div class="menu_button_icon open-icon">
+            <i class="fas fa-bars">
+            </i>
+        </div>
+        <div class="menu_button_icon close-icon">
+            <i class="fas fa-times">
+            </i>
         </div>
     </div>
 </div>
