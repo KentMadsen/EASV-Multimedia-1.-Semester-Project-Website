@@ -57,6 +57,7 @@ function overlay_click()
              i < x.length;
              i ++ )
         {
+            add_overlay_button_move();
             x[i].classList.remove( hide_overlay );
         }
 
@@ -74,8 +75,34 @@ function overlay_click()
              i < x.length;
              i ++ )
          {
+            remove_overlay_button_move();
              x[i].classList.add( hide_overlay );
          }
 
+    }
+}
+
+function remove_overlay_button_move()
+{
+    var x = document.getElementsByClassName('menu_button');
+    var i;
+
+    for(i = 0; i < x.length; i++)
+    {
+        x[i].classList.remove('open');
+    }
+}
+
+function add_overlay_button_move()
+{
+    var x = document.getElementsByClassName('menu_button');
+    var i;
+
+    for(i = 0; i < x.length; i++)
+    {
+        for(i = 0; i < x.length; i++)
+        {
+            x[i].classList.add('open');
+        }
     }
 }
